@@ -1,22 +1,19 @@
-import pytest
+from typing import Tuple
 import pandas as pd
+from main import read_dataset
 import sys
 
 sys.path.append("..")  # Add parent directory to Python path
 
-from main import read_dataset
-
 
 def test_read_dataset():
-    batting_card_path = "./input/batting_card.csv"
-    bowling_card_path = "./input/bowling_card.csv"
-    details_path = "./input/details.csv"
-    summary_path = "./input/summary.csv"
+    batting_df: pd.DataFrame
+    bowling_df: pd.DataFrame
+    details_df: pd.DataFrame
+    summary_df: pd.DataFrame
 
     # Call the read_dataset function to read the CSV files
-    batting_df, bowling_df, details_df, summary_df = read_dataset(
-        batting_card_path, bowling_card_path, details_path, summary_path
-    )
+    batting_df, bowling_df, details_df, summary_df = read_dataset()
 
     # Check that all dataframes are not empty
     assert not batting_df.empty
