@@ -3,7 +3,7 @@ import logging
 import pandas as pd
 
 
-def configure_logging():
+def configure_logging() -> None:
     """Configure the logging module."""
     logging.basicConfig(
         filename="./log/SA20_analysis.log",
@@ -73,12 +73,7 @@ class DatasetCleaner:
                 f"{duplicate_rows} duplicate rows were detected for /input/batting_card.csv"
             )
 
-        # Define a lambda function to replace single quotes with double quotes
-        def replace_quotes(x): return x.replace("'", '"')
-
-        # Apply the lambda function to the 'column1' column
-        batting_df['runningScore'] = batting_df['runningScore'].apply(
-            replace_quotes)
+        batting_df = batting_df["shortText"].str.replace("&dagger;", "")
 
         return batting_df
 
