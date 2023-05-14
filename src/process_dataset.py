@@ -73,7 +73,7 @@ class DatasetCleaner:
                 f"{duplicate_rows} duplicate rows were detected for /input/batting_card.csv"
             )
 
-        batting_df = batting_df["shortText"].str.replace("&dagger;", "")
+        # batting_df = batting_df["shortText"].str.replace("&dagger;", "")
 
         return batting_df
 

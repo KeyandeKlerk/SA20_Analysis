@@ -2,12 +2,33 @@ from typing import Any, Dict
 import ast
 
 import pandas as pd
-import numpy as np
 
 
 class BattingData:
     def __init__(self, batting_df: pd.DataFrame):
         self.batting_df = batting_df
+
+    def get_all_performances(self):
+        grouped = self.batting_df.groupby("fullName").agg(
+            {
+                "runs": "sum",
+                "ballsFaced": "sum",
+                "fours": "sum",
+                "sixes": "sum",
+                "strikeRate": "mean",
+            }
+        )
+        # Rename the columns
+        grouped.columns = [
+            "total_runs",
+            "total_balls",
+            "total_fours",
+            "total_sixes",
+            "avg_strike_rate",
+        ]
+
+        # Reset the index
+        return grouped.reset_index().sort_values(by='total_runs', ascending=False)
 
     def best_batsman_per_game(self) -> pd.DataFrame:
         # create a new dataframe to store the best batsman in each game
