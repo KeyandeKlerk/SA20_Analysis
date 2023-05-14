@@ -125,10 +125,8 @@ class SummaryData:
             pd.Dataframe: dataframe containing all teams and their respective win rates compared to game break
         """
         # convert start_date and end_date columns to datetime format
-        self.summary_df["start_date"] = pd.to_datetime(
-            self.summary_df["start_date"])
-        self.summary_df["end_date"] = pd.to_datetime(
-            self.summary_df["end_date"])
+        self.summary_df["start_date"] = pd.to_datetime(self.summary_df["start_date"])
+        self.summary_df["end_date"] = pd.to_datetime(self.summary_df["end_date"])
 
         # extract the name of the winning team from the 'result' column
         self.summary_df["winning_team"] = (
@@ -140,8 +138,9 @@ class SummaryData:
             self.summary_df["start_date"], format="%Y-%m-%dT%H:%M%z"
         )
         self.summary_df["days_between_games"] = (
-            self.summary_df.groupby("winning_team")[
-                "start_date"].diff().dt.days  # type: ignore
+            self.summary_df.groupby("winning_team")["start_date"]
+            .diff()  # type: ignore
+            .dt.days
         )
 
         # group by days between games and calculate the average result for each group

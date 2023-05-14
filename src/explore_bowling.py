@@ -35,12 +35,10 @@ class BowlingData:
             print(max_wickets_row)
             # if there are multiple rows with the maximum wickets, find the one with the lowest conceded
             if (game_data["wickets"] == max_wickets_row["wickets"]).sum() > 1:
-                min_conceded_row = game_data.loc[game_data["conceded"].idxmin(
-                )]
+                min_conceded_row = game_data.loc[game_data["conceded"].idxmin()]
                 # if there are still multiple rows, find the one with the smallest economy rate
                 if (game_data["conceded"] == min_conceded_row["conceded"]).sum() > 1:
-                    best_bowler_row = game_data.loc[game_data["economyRate"].idxmin(
-                    )]
+                    best_bowler_row = game_data.loc[game_data["economyRate"].idxmin()]
                 else:
                     best_bowler_row = min_conceded_row
             else:
@@ -70,9 +68,9 @@ class BowlingData:
         return best_bowler_df
 
     def calculate_balls(self, bowling_df):
-        overs = int(bowling_df['overs'].sum())
+        overs = int(bowling_df["overs"].sum())
         # sum the decimal parts of overs
-        balls_decimal = (bowling_df['overs'].sum() - overs).sum()
+        balls_decimal = (bowling_df["overs"].sum() - overs).sum()
         balls_bowled = overs * 6 + int(round(balls_decimal * 10))
         return balls_bowled
 
@@ -123,31 +121,37 @@ class BowlingData:
             "no_balls_bowled",
         ]
 
-        average = self.bowling_df.groupby('fullName').apply(
-            lambda x: (x['conceded'].sum() / x['wickets'].sum()))
+        average = self.bowling_df.groupby("fullName").apply(
+            lambda x: (x["conceded"].sum() / x["wickets"].sum())
+            if x["wickets"].sum() != 0
+            else np.NaN
+        )
 
-        grouped['average'] = average.values
+        grouped["average"] = average.values
 
         # Calculate bowling average for each player
-        average = self.bowling_df.groupby('fullName').apply(
-            lambda x: x['conceded'].sum() / x['wickets'].sum() if x['wickets'].sum() != 0 else np.NaN)
+        average = self.bowling_df.groupby("fullName").apply(
+            lambda x: x["conceded"].sum() / x["wickets"].sum()
+            if x["wickets"].sum() != 0
+            else np.NaN
+        )
 
         # Add bowling average to the grouped DataFrame
-        grouped['average'] = average.values
+        grouped["average"] = average.values
 
         # apply the function to the "overs" column and create a new column "balls_bowled"
-        balls_bowled = self.bowling_df.groupby(
-            'fullName').apply(self.calculate_balls)
+        balls_bowled = self.bowling_df.groupby("fullName").apply(self.calculate_balls)
         grouped["balls_bowled"] = balls_bowled.values
 
         # calculate total number of wickets taken by each player
-        wickets_taken = self.bowling_df['wickets'].groupby(
-            self.bowling_df['fullName']).sum()
+        wickets_taken = (
+            self.bowling_df["wickets"].groupby(self.bowling_df["fullName"]).sum()
+        )
 
         # calculate strike rate for each player
         strike_rate = (balls_bowled / wickets_taken).replace(np.inf, np.nan)
 
-        grouped['strike_rate'] = strike_rate.values
+        grouped["strike_rate"] = strike_rate.values
 
         # Reset the index
         return grouped.reset_index()
@@ -167,44 +171,44 @@ class BowlingData:
         """
 
         # Filter the dataframe to include only the specified bowler's data
-        bowler_df = self.bowling_df[self.bowling_df['fullName'] == bowler_name]
+        bowler_df = self.bowling_df[self.bowling_df["fullName"] == bowler_name]
 
         # Split the data into home and away matches
         bowler_team = bowler_df["bowling_team"]
-        home_df = bowler_df[bowler_df['home_team'] == bowler_team]
+        home_df = bowler_df[bowler_df["home_team"] == bowler_team]
         away_df = bowler_df[bowler_df["away_team"] == bowler_team]
 
         # Calculate the average runs conceded, wickets taken, economy rate, and bowling strike rate for home and away matches
-        home_runs = home_df['conceded'].mean()
-        away_runs = away_df['conceded'].mean()
+        home_runs = home_df["conceded"].mean()
+        away_runs = away_df["conceded"].mean()
 
-        home_wickets = home_df['wickets'].mean()
-        away_wickets = away_df['wickets'].mean()
+        home_wickets = home_df["wickets"].mean()
+        away_wickets = away_df["wickets"].mean()
 
-        home_economy = home_df['economyRate'].mean()
-        away_economy = away_df['economyRate'].mean()
+        home_economy = home_df["economyRate"].mean()
+        away_economy = away_df["economyRate"].mean()
 
         if home_wickets != 0:
-            home_strike_rate = home_df['overs'].sum() / home_wickets
+            home_strike_rate = home_df["overs"].sum() / home_wickets
         else:
             home_strike_rate = np.nan
 
         if away_wickets != 0:
-            away_strike_rate = away_df['overs'].sum() / away_wickets
+            away_strike_rate = away_df["overs"].sum() / away_wickets
         else:
             away_strike_rate = np.nan
 
         # Create a dictionary to store the results
         results = {
-            'bowler_name': bowler_name,
-            'home_runs_conceded': home_runs,
-            'away_runs_conceded': away_runs,
-            'home_wickets_taken': home_wickets,
-            'away_wickets_taken': away_wickets,
-            'home_economy_rate': home_economy,
-            'away_economy_rate': away_economy,
-            'home_strike_rate': home_strike_rate,
-            'away_strike_rate': away_strike_rate
+            "bowler_name": bowler_name,
+            "home_runs_conceded": home_runs,
+            "away_runs_conceded": away_runs,
+            "home_wickets_taken": home_wickets,
+            "away_wickets_taken": away_wickets,
+            "home_economy_rate": home_economy,
+            "away_economy_rate": away_economy,
+            "home_strike_rate": home_strike_rate,
+            "away_strike_rate": away_strike_rate,
         }
 
         return results
@@ -222,7 +226,7 @@ class BowlingData:
         every bowler in the input dataframe, at home and away matches.
         """
 
-        bowler_names = self.bowling_df['fullName'].unique()
+        bowler_names = self.bowling_df["fullName"].unique()
 
         results_list = []
 

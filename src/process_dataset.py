@@ -83,7 +83,8 @@ class DatasetCleaner:
 
         # replace the string in the 'shortText' column
         batting_df = batting_df.assign(
-            shortText=batting_df["shortText"].str.replace("&dagger;", ""))
+            shortText=batting_df["shortText"].str.replace("&dagger;", "")
+        )
 
         return batting_df
 
@@ -98,8 +99,7 @@ class DatasetCleaner:
         """
         duplicate_rows = bowling_df.duplicated().sum()
         if duplicate_rows > 0:
-            logging.error(
-                "Duplicate rows were detected for /input/bowling_card.csv")
+            logging.error("Duplicate rows were detected for /input/bowling_card.csv")
 
         if "href" in bowling_df.columns:
             bowling_df.drop("href", axis=1, inplace=True)
@@ -137,7 +137,6 @@ class DatasetCleaner:
         """
         duplicate_rows = summary_df.duplicated().sum()
         if duplicate_rows > 0:
-            logging.error(
-                "Duplicate rows were detected for /input/summary.csv")
+            logging.error("Duplicate rows were detected for /input/summary.csv")
 
         return summary_df
