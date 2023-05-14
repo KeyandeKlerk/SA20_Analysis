@@ -27,7 +27,7 @@ class DetailsData:
         total_sixes = sixes['runs'].count()
         sixes_by_over_total = sixes.groupby('over')['runs'].sum()
         six_probs = {}
-        for over, sixes_at_over in sixes_by_over.iteritems():
+        for over, sixes_at_over in sixes_by_over.iteritems():  # type: ignore
             six_prob = sixes_at_over / total_sixes
             six_probs[over] = six_prob
         return six_probs, sixes_by_over_total

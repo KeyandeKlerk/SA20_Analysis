@@ -1,6 +1,13 @@
-# SA20 Cricket Data Analysis
+# Exploratory Data Analysis - South Africa T20 Cricket League, 2023
 
-This project is a data analysis program designed to analyze the results from the recently concluded SA20 cricket competition. The goal of this program is to provide valuable insights into the performance of the teams and players, as well as to develop recommendations based on these insights.
+This project is a data analysis program designed to analyze the results from the recently concluded SA20 cricket competition. 
+The opening SA20 season features six sides:
+* Durban's Super Giants (Captain: Quinton de Kock / Head Coach: Lance Klusener)
+* Joburg Super Kings (Captain: Faf du Plessis / Head Coach: Stephen Fleming)
+* Mumbai Indians Cape Town (Captain: Rashid Khan / Head Coach: Simon Katich)
+* Paarl Royals (Captain: David Miller / Head Coach: JP Duminy)
+* Pretoria Capitals (Captain: Rilee Rossouw / Head Coach: Graham Ford)
+* Sunrisers Eastern Cape (Captain: Aiden Markram / Head Coach: Adrian Birrell)
 
 ## Project Goals
 
@@ -28,12 +35,12 @@ The program requires the following libraries to be installed:
 
 * pandas
 * matplotlib
-* seaborn
+* numpy
 
 You can install these libraries using pip:
 
 ```
-pip install pandas matplotlib seaborn
+pip install -r requirements.txt
 ```
 
 ## Conclusion

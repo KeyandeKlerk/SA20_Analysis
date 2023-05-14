@@ -1,0 +1,478 @@
+season,match_id,match_name,home_team,away_team,venue,city,country,current_innings,innings_id,name,fullName,runs,ballsFaced,minutes,fours,sixes,strikeRate,captain,isNotOut,runningScore,runningOver,shortText
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,PD Salt,Phil Salt,39,21,24,3,3,185.71,False,False,"{'wickets': 1, 'runs': 69}",5.2,c Buttler b Ngidi
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,BKG Mendis,Kusal Mendis,80,41,80,8,4,195.12,False,False,"{'wickets': 4, 'runs': 183}",16.4,c Miller b Ngidi
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,TB de Bruyn,Theunis de Bruyn,12,14,20,0,0,85.71,True,False,"{'wickets': 2, 'runs': 93}",9.1,c Morgan b Phehlukwayo
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,RR Rossouw,Rilee Rossouw,13,13,16,1,0,100.0,False,False,"{'wickets': 3, 'runs': 126}",12.1, b Codi Yusuf
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,CA Ingram,Colin Ingram,41,21,38,4,2,195.23,False,False,"{'wickets': 5, 'runs': 226}",19.6,run out (Codi Yusuf/Buttler)
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,JDS Neesham,James Neesham,22,11,16,2,1,200.0,False,True,{},,not out
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PR,2,JJ Roy,Jason Roy,10,10,-,0,1,100.0,False,False,"{'wickets': 2, 'runs': 30}",3.3,lbw b Nortje
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PR,2,PR Stirling,Paul Stirling,19,10,-,3,1,190.0,False,False,"{'wickets': 1, 'runs': 30}",2.5,c Muthusamy b Bosch
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PR,2,JC Buttler,Jos Buttler,70,45,-,4,5,155.55,False,False,"{'wickets': 8, 'runs': 153}",18.4,c Rossouw b Neesham
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PR,2,M Van Buuren,Mitchell Van Buuren,5,6,-,0,0,83.33,False,False,"{'wickets': 3, 'runs': 38}",5.2,c Neesham b Pretorius
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PR,2,EJG Morgan,Eoin Morgan,24,12,-,3,1,200.0,False,False,"{'wickets': 4, 'runs': 67}",8.2,c Neesham b Rashid
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PR,2,DA Miller,David Miller,11,17,-,1,0,64.7,True,False,"{'wickets': 5, 'runs': 101}",13.4,c de Bruyn b Pretorius
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PR,2,AL Phehlukwayo,Andile Phehlukwayo,3,5,-,0,0,60.0,False,False,"{'wickets': 6, 'runs': 115}",15.3,c Ingram b Neesham
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PR,2,E Jones,Evan Jones,0,2,-,0,0,0.0,False,False,"{'wickets': 7, 'runs': 115}",15.5,c Rashid b Neesham
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PR,2,BC Fortuin,Bjorn Fortuin,8,8,-,1,0,100.0,False,False,"{'wickets': 9, 'runs': 163}",19.3, b Rashid
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PR,2,Codi Yusuf,Codi Yusuf,2,2,-,0,0,100.0,False,True,{},,not out
+2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PR,2,L Ngidi,Lungi Ngidi,2,3,-,0,0,66.66,False,True,{},,not out
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,F du Plessis,Faf du Plessis,0,1,3,0,0,0.0,True,False,"{'wickets': 1, 'runs': 0}",0.1,c Rashid Khan b Linde
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,RR Hendricks,Reeza Hendricks,0,6,12,0,0,0.0,False,False,"{'wickets': 2, 'runs': 12}",1.6,c David b Curran
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,JL du Plooy,Leus du Plooy,81,48,93,11,1,168.75,False,True,{},,not out
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,BS Makhanya,Sibonelo Makhanya,4,3,9,1,0,133.33,False,False,"{'wickets': 3, 'runs': 34}",3.3,c Rabada b Curran
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,MS Wade,Matthew Wade,40,18,21,8,1,222.22,False,False,"{'wickets': 4, 'runs': 80}",7.3, b Archer
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,D Ferreira,Donovan Ferreira,19,18,23,0,2,105.55,False,False,"{'wickets': 5, 'runs': 113}",12.4,c Roelofsen b Brevis
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,KI Simmonds,Kyle Simmonds,13,15,21,0,1,86.66,False,False,"{'wickets': 6, 'runs': 156}",17.2, b Archer
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,R Shepherd,Romario Shepherd,15,11,12,0,2,136.36,False,True,{},,not out
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,MICT,2,HE van der Dussen,Rassie van der Dussen,20,15,37,2,0,133.33,False,False,"{'wickets': 2, 'runs': 48}",7.3,c Ferreira b Simmonds
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,MICT,2,WB Marshall,Wesley Marshall,4,8,13,0,0,50.0,False,False,"{'wickets': 1, 'runs': 15}",2.4,lbw b Theekshana
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,MICT,2,G Roelofsen,Grant Roelofsen,21,24,27,0,1,87.5,False,False,"{'wickets': 3, 'runs': 49}",7.5, b Simmonds
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,MICT,2,D Brevis,Dewald Brevis,27,26,53,0,2,103.84,False,False,"{'wickets': 10, 'runs': 113}",17.5, b Coetzee
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,MICT,2,GF Linde,George Linde,4,7,11,1,0,57.14,False,False,"{'wickets': 4, 'runs': 55}",9.4, b Coetzee
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,MICT,2,TH David,Tim David,17,8,10,1,2,212.5,False,False,"{'wickets': 5, 'runs': 82}",11.4,c Hendricks b Simmonds
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,MICT,2,D Potgieter,Delano Potgieter,2,4,6,0,0,50.0,False,False,"{'wickets': 6, 'runs': 85}",12.4,c du Plessis b Theekshana
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,MICT,2,SM Curran,Sam Curran,2,5,5,0,0,40.0,False,False,"{'wickets': 7, 'runs': 90}",13.6,c Coetzee b Ferreira
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,MICT,2,Rashid Khan,Rashid Khan,4,5,11,0,0,80.0,True,False,"{'wickets': 8, 'runs': 104}",15.5,c sub (JN Malan) b Coetzee
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,MICT,2,JC Archer,Jofra Archer,2,3,5,0,0,66.66,False,False,"{'wickets': 9, 'runs': 107}",16.3,c Wade b Williams
+2023,1343969,JSK v MICT,JSK,MICT,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,MICT,2,K Rabada,Kagiso Rabada,0,3,5,0,0,0.0,False,True,{},,not out
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,DSG,1,Q de Kock,Quinton de Kock,43,20,44,5,3,215.0,True,False,"{'wickets': 1, 'runs': 76}",6.1,c &amp; b Neesham
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,DSG,1,BR McDermott,Ben McDermott,41,24,30,5,3,170.83,False,False,"{'wickets': 2, 'runs': 116}",9.3,c Neesham b Pretorius
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,DSG,1,H Klaasen,Heinrich Klaasen,104,44,67,10,6,236.36,False,True,{},,not out
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,DSG,1,DJ Willey,David Willey,1,2,3,0,0,50.0,False,False,"{'wickets': 3, 'runs': 118}",9.6,c Salt b Pretorius
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,DSG,1,PWA Mulder,Wiaan Mulder,9,9,18,1,0,100.0,False,False,"{'wickets': 4, 'runs': 170}",13.6,c Neesham b Little
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,DSG,1,MP Breetzke,Matthew Breetzke,46,21,30,5,3,219.04,False,True,{},,not out
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,PD Salt,Phil Salt,1,3,7,0,0,33.33,False,False,"{'wickets': 1, 'runs': 7}",1.1,c Paul b Topley
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,BKG Mendis,Kusal Mendis,10,9,14,1,1,111.11,False,False,"{'wickets': 2, 'runs': 19}",2.6,c &amp; b Dala
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,TB de Bruyn,Theunis de Bruyn,16,13,18,1,1,123.07,True,False,"{'wickets': 3, 'runs': 34}",4.5,c Willey b Pretorius
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,RR Rossouw,Rilee Rossouw,18,12,20,3,1,150.0,False,False,"{'wickets': 4, 'runs': 51}",6.6, b Dala
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,CA Ingram,Colin Ingram,4,11,16,0,0,36.36,False,False,"{'wickets': 5, 'runs': 60}",8.2,c &amp; b Dala
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,JDS Neesham,James Neesham,8,4,14,0,1,200.0,False,False,"{'wickets': 6, 'runs': 64}",9.2,c de Kock b Pretorius
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,S Muthusamy,Senuran Muthusamy,9,8,15,1,0,112.5,False,False,"{'wickets': 8, 'runs': 73}",10.4,c Dala b Mulder
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,M Pretorius,Migael Pretorius,2,3,8,0,0,66.66,False,False,"{'wickets': 7, 'runs': 72}",10.2,run out (Dala/Klaasen)
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,E Bosch,Eathan Bosch,23,13,14,1,2,176.92,False,False,"{'wickets': 9, 'runs': 98}",12.5,c Klaasen b Mulder
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,DM Dupavillon,Daryn Dupavillon,5,6,17,1,0,83.33,False,False,"{'wickets': 10, 'runs': 103}",13.5,c Willey b Paul
+2023,1343968,PC v DSG,DSG,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,JB Little,Josh Little,0,1,5,0,0,0.0,False,True,{},,not out
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,F du Plessis,Faf du Plessis,92,61,90,7,4,150.81,True,False,"{'wickets': 6, 'runs': 152}",18.6,c Stubbs b Magala
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,RR Hendricks,Reeza Hendricks,40,36,59,5,0,111.11,False,False,"{'wickets': 1, 'runs': 119}",14.2,c Hermann b Carse
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,MS Wade,Matthew Wade,7,5,7,1,0,140.0,False,False,"{'wickets': 2, 'runs': 128}",15.2, b Markram
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,D Ferreira,Donovan Ferreira,2,2,5,0,0,100.0,False,False,"{'wickets': 3, 'runs': 130}",15.4,st Rossington b Markram
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,JL du Plooy,Leus du Plooy,5,6,12,0,0,83.33,False,False,"{'wickets': 4, 'runs': 140}",17.2,c Markram b Jansen
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,R Shepherd,Romario Shepherd,2,3,8,0,0,66.66,False,False,"{'wickets': 5, 'runs': 151}",18.4,c van der Merwe b Magala
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,BS Makhanya,Sibonelo Makhanya,6,3,7,1,0,200.0,False,True,{},,not out
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,G Coetzee,Gerald Coetzee,3,4,4,0,0,75.0,False,True,{},,not out
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,SEC,2,AM Rossington,Adam Rossington,1,3,7,0,0,33.33,False,False,"{'wickets': 1, 'runs': 11}",1.3, b Theekshana
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,SEC,2,T Bavuma,Temba Bavuma,50,34,58,5,2,147.05,False,False,"{'wickets': 4, 'runs': 82}",12.3, b Simmonds
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,SEC,2,J Hermann,Jordan Hermann,5,11,14,0,0,45.45,False,False,"{'wickets': 2, 'runs': 23}",4.1,c Ferreira b Coetzee
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,SEC,2,JT Smuts,JJ Smuts,0,5,5,0,0,0.0,False,False,"{'wickets': 3, 'runs': 23}",4.6,c Burger b Coetzee
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,SEC,2,AK Markram,Aiden Markram,34,30,48,2,1,113.33,True,False,"{'wickets': 7, 'runs': 98}",15.1,c Makhanya b Shepherd
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,SEC,2,T Stubbs,Tristan Stubbs,5,7,10,0,0,71.42,False,False,"{'wickets': 5, 'runs': 98}",14.5, b Simmonds
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,SEC,2,M Jansen,Marco Jansen,0,1,3,0,0,0.0,False,False,"{'wickets': 6, 'runs': 98}",14.6,lbw b Simmonds
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,SEC,2,JK Fuller,James Fuller,2,2,11,0,0,100.0,False,False,"{'wickets': 8, 'runs': 113}",16.4, b Theekshana
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,SEC,2,BA Carse,Brydon Carse,11,12,23,0,1,91.66,False,False,"{'wickets': 9, 'runs': 133}",19.2,c Wade b Shepherd
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,SEC,2,RE van der Merwe,Roelof van der Merwe,16,13,18,1,0,123.07,False,True,{},,not out
+2023,1343967,JSK v SEC,JSK,SEC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,SEC,2,SSB Magala,Sisanda Magala,1,2,3,0,0,50.0,False,True,{},,not out
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,MICT,1,HE van der Dussen,Rassie van der Dussen,51,29,60,4,4,175.86,False,False,"{'wickets': 4, 'runs': 107}",11.4, b Bosch
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,MICT,1,WB Marshall,Wesley Marshall,16,13,15,3,0,123.07,False,False,"{'wickets': 1, 'runs': 22}",3.1,c Dadswell b Parnell
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,MICT,1,G Roelofsen,Grant Roelofsen,8,9,13,1,0,88.88,False,False,"{'wickets': 2, 'runs': 44}",5.5, b Little
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,MICT,1,D Brevis,Dewald Brevis,14,11,16,0,2,127.27,False,False,"{'wickets': 3, 'runs': 74}",8.2,c Salt b Nortje
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,MICT,1,GF Linde,George Linde,14,18,29,0,1,77.77,False,False,"{'wickets': 6, 'runs': 117}",13.6,c Salt b Neesham
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,MICT,1,TH David,Tim David,2,4,7,0,0,50.0,False,False,"{'wickets': 5, 'runs': 112}",12.6, b Nortje
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,MICT,1,D Jansen,Duan Jansen,8,5,18,1,0,160.0,False,False,"{'wickets': 7, 'runs': 128}",15.4,run out (Bosch/Muthusamy)
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,MICT,1,SM Curran,Sam Curran,5,8,15,0,0,62.5,False,False,"{'wickets': 8, 'runs': 129}",16.1,c Salt b Neesham
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,MICT,1,OF Smith,Odean Smith,7,10,13,1,0,70.0,False,False,"{'wickets': 9, 'runs': 143}",18.1,c Dadswell b Bosch
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,MICT,1,Rashid Khan,Rashid Khan,14,9,21,1,1,155.55,True,True,{},,not out
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,MICT,1,K Rabada,Kagiso Rabada,6,3,11,1,0,200.0,False,False,"{'wickets': 10, 'runs': 159}",19.4,run out (Little/Salt)
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,PD Salt,Phil Salt,9,9,24,1,0,100.0,False,False,"{'wickets': 1, 'runs': 50}",5.1,c Rabada b Curran
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,BKG Mendis,Kusal Mendis,39,25,28,7,1,156.0,False,False,"{'wickets': 2, 'runs': 51}",5.5, b Curran
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,TB de Bruyn,Theunis de Bruyn,1,2,9,0,0,50.0,False,False,"{'wickets': 3, 'runs': 53}",6.1,c Marshall b Rashid Khan
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,RR Rossouw,Rilee Rossouw,40,19,35,2,4,210.52,False,False,"{'wickets': 4, 'runs': 114}",12.5,c Rashid Khan b Rabada
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,S Dadswell,Shane Dadswell,16,24,36,1,0,66.66,False,False,"{'wickets': 5, 'runs': 114}",13.2,c Rashid Khan b Smith
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,JDS Neesham,James Neesham,0,2,9,0,0,0.0,False,False,"{'wickets': 6, 'runs': 115}",13.6,c Roelofsen b Smith
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,S Muthusamy,Senuran Muthusamy,25,23,40,2,2,108.69,False,False,"{'wickets': 9, 'runs': 158}",19.3,c Brevis b Curran
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,E Bosch,Eathan Bosch,3,6,18,0,0,50.0,False,False,"{'wickets': 7, 'runs': 138}",17.1,c Roelofsen b Jansen
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,A Nortje,Anrich Nortje,10,5,5,2,0,200.0,False,False,"{'wickets': 8, 'runs': 148}",17.6,c Brevis b Jansen
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,WD Parnell,Wayne Parnell,2,3,21,0,0,66.66,True,True,{},,not out
+2023,1343966,PC v MICT,MICT,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,JB Little,Josh Little,2,3,8,0,0,66.66,False,True,{},,not out
+2023,1343965,DSG v SEC,SEC,DSG,"Kingsmead, Durban",Durban,South Africa,SEC,2,AM Rossington,Adam Rossington,35,18,31,5,2,194.44,False,True,{},,not out
+2023,1343965,DSG v SEC,SEC,DSG,"Kingsmead, Durban",Durban,South Africa,SEC,2,T Bavuma,Temba Bavuma,0,1,9,0,0,0.0,False,False,"{'wickets': 1, 'runs': 22}",1.5,c Klaasen b Topley
+2023,1343965,DSG v SEC,SEC,DSG,"Kingsmead, Durban",Durban,South Africa,SEC,2,J Hermann,Jordan Hermann,0,1,2,0,0,0.0,False,False,"{'wickets': 2, 'runs': 22}",1.6,c McDermott b Topley
+2023,1343965,DSG v SEC,SEC,DSG,"Kingsmead, Durban",Durban,South Africa,SEC,2,AK Markram,Aiden Markram,6,9,15,1,0,66.66,True,False,"{'wickets': 3, 'runs': 41}",4.5,c Harmer b Mulder
+2023,1343965,DSG v SEC,SEC,DSG,"Kingsmead, Durban",Durban,South Africa,SEC,2,JT Smuts,JJ Smuts,9,4,6,2,0,225.0,False,True,{},,not out
+2023,1343964,JSK v PR,PR,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PR,2,JJ Roy,Jason Roy,61,42,68,8,3,145.23,False,False,"{'wickets': 4, 'runs': 130}",14.5,c Ferreira b Shepherd
+2023,1343964,JSK v PR,PR,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PR,2,JC Buttler,Jos Buttler,23,11,17,0,3,209.09,False,False,"{'wickets': 1, 'runs': 53}",3.3, b Coetzee
+2023,1343964,JSK v PR,PR,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PR,2,WJ Lubbe,Wihan Lubbe,12,18,20,2,0,66.66,False,False,"{'wickets': 2, 'runs': 77}",7.3,c du Plooy b Ferreira
+2023,1343964,JSK v PR,PR,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PR,2,DJ Vilas,Dane Vilas,17,12,22,2,0,141.66,False,False,"{'wickets': 3, 'runs': 112}",12.2, b Burger
+2023,1343964,JSK v PR,PR,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PR,2,DA Miller,David Miller,5,6,13,0,0,83.33,True,True,{},,not out
+2023,1343964,JSK v PR,PR,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PR,2,E Jones,Evan Jones,1,1,1,0,0,100.0,False,True,{},,not out
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,MICT,1,D Brevis,Dewald Brevis,13,10,22,1,1,130.0,False,False,"{'wickets': 2, 'runs': 32}",4.3,c Mulder b Pretorius
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,MICT,1,G Roelofsen,Grant Roelofsen,10,13,16,1,0,76.92,False,False,"{'wickets': 1, 'runs': 23}",3.1,c Paul b Mulder
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,MICT,1,HE van der Dussen,Rassie van der Dussen,43,32,56,5,1,134.37,False,False,"{'wickets': 4, 'runs': 105}",14.2,c Harmer b Willey
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,MICT,1,GF Linde,George Linde,5,12,16,0,0,41.66,False,False,"{'wickets': 3, 'runs': 50}",7.4,st Klaasen b Maharaj
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,MICT,1,TH David,Tim David,33,26,42,0,3,126.92,False,False,"{'wickets': 5, 'runs': 115}",15.4,c de Kock b Pretorius
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,MICT,1,OF Smith,Odean Smith,17,10,32,2,1,170.0,False,True,{},,not out
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,MICT,1,D Potgieter,Delano Potgieter,32,17,22,2,3,188.23,False,True,{},,not out
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,Q de Kock,Quinton de Kock,63,41,52,7,3,153.65,True,False,"{'wickets': 2, 'runs': 98}",11.4,c Jansen b David
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,BR McDermott,Ben McDermott,5,7,19,1,0,71.42,False,False,"{'wickets': 1, 'runs': 33}",4.2,c Hendricks b Jansen
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,MP Breetzke,Matthew Breetzke,48,39,79,5,1,123.07,False,True,{},,not out
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,KMA Paul,Keemo Paul,31,18,26,4,1,172.22,False,False,"{'wickets': 3, 'runs': 146}",16.3,c David b Rabada
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,H Klaasen,Heinrich Klaasen,0,2,3,0,0,0.0,False,False,"{'wickets': 4, 'runs': 146}",16.5,c Brevis b Rabada
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,PWA Mulder,Wiaan Mulder,7,7,12,1,0,100.0,False,False,"{'wickets': 5, 'runs': 159}",18.4,c David b Rabada
+2023,1343963,DSG v MICT,MICT,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,DJ Willey,David Willey,2,5,8,0,0,40.0,False,True,{},,not out
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,DSG,1,KR Mayers,Kyle Mayers,28,15,15,2,3,186.66,False,False,"{'wickets': 2, 'runs': 46}",4.2,c du Plooy b Theekshana
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,DSG,1,Q de Kock,Quinton de Kock,6,9,9,1,0,66.66,True,False,"{'wickets': 1, 'runs': 33}",3.3,c Makhanya b Coetzee
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,DSG,1,MP Breetzke,Matthew Breetzke,28,24,24,1,1,116.66,False,False,"{'wickets': 4, 'runs': 121}",14.2,c Theekshana b Coetzee
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,DSG,1,PWA Mulder,Wiaan Mulder,0,2,2,0,0,0.0,False,False,"{'wickets': 3, 'runs': 46}",4.4, b Theekshana
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,DSG,1,H Klaasen,Heinrich Klaasen,65,48,48,7,0,135.41,False,False,"{'wickets': 6, 'runs': 154}",18.4,c Hendricks b Coetzee
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,DSG,1,KMA Paul,Keemo Paul,8,7,7,0,1,114.28,False,False,"{'wickets': 5, 'runs': 132}",15.6,c Brand b Theekshana
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,DSG,1,JO Holder,Jason Holder,28,12,11,4,1,233.33,False,True,{},,not out
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,DSG,1,SR Harmer,Simon Harmer,5,3,2,0,0,166.66,False,True,{},,not out
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,2,RR Hendricks,Reeza Hendricks,45,46,69,4,2,97.82,False,False,"{'wickets': 1, 'runs': 157}",16.3,c Mulder b Topley
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,2,F du Plessis,Faf du Plessis,113,58,86,8,8,194.82,True,True,{},,not out
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,2,D Ferreira,Donovan Ferreira,4,8,13,1,0,50.0,False,False,"{'wickets': 2, 'runs': 170}",18.3,c de Kock b Mulder
+2023,1343962,JSK v DSG,DSG,JSK,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,2,JL du Plooy,Leus du Plooy,6,3,5,1,0,200.0,False,True,{},,not out
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,AM Rossington,Adam Rossington,4,5,4,1,0,80.0,False,False,"{'wickets': 1, 'runs': 4}",0.5,c Miller b Fortuin
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,J Hermann,Jordan Hermann,4,10,27,0,0,40.0,False,False,"{'wickets': 2, 'runs': 30}",5.4,c Buttler b Jones
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,JT Smuts,JJ Smuts,65,49,68,9,0,132.65,False,False,"{'wickets': 4, 'runs': 102}",15.3,lbw b Shamsi
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,AK Markram,Aiden Markram,15,19,29,0,0,78.94,True,False,"{'wickets': 3, 'runs': 74}",12.2, b Phehlukwayo
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,T Stubbs,Tristan Stubbs,18,17,29,3,0,105.88,False,False,"{'wickets': 5, 'runs': 113}",17.5,c Jones b Phehlukwayo
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,M Jansen,Marco Jansen,13,10,21,0,1,130.0,False,False,"{'wickets': 7, 'runs': 124}",19.3,c sub (C Bosch) b Jones
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,JK Fuller,James Fuller,1,4,6,0,0,25.0,False,False,"{'wickets': 6, 'runs': 116}",18.4, b Ngidi
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,BA Carse,Brydon Carse,4,4,8,0,0,100.0,False,True,{},,not out
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,SJ Erwee,Sarel Erwee,1,2,4,0,0,50.0,False,True,{},,not out
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,PR,2,JJ Roy,Jason Roy,8,16,25,0,0,50.0,False,False,"{'wickets': 1, 'runs': 46}",5.5,c Erwee b Jansen
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,PR,2,JC Buttler,Jos Buttler,51,39,61,4,2,130.76,False,False,"{'wickets': 4, 'runs': 80}",12.5, b van der Merwe
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,PR,2,WJ Lubbe,Wihan Lubbe,2,4,7,0,0,50.0,False,False,"{'wickets': 2, 'runs': 49}",6.4,lbw b van der Merwe
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,PR,2,M Van Buuren,Mitchell Van Buuren,14,15,22,0,1,93.33,False,False,"{'wickets': 3, 'runs': 72}",11.2,c van der Merwe b Magala
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,PR,2,AL Phehlukwayo,Andile Phehlukwayo,4,7,15,0,0,57.14,False,False,"{'wickets': 5, 'runs': 91}",14.2,c Fuller b Smuts
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,PR,2,DA Miller,David Miller,37,23,30,0,4,160.86,True,True,{},,not out
+2023,1343961,SEC v PR,SEC,PR,"St George's Park, Gqeberha",Gqeberha,South Africa,PR,2,DJ Vilas,Dane Vilas,12,10,21,1,0,120.0,False,True,{},,not out
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,PC,1,BKG Mendis,Kusal Mendis,29,19,35,4,1,152.63,False,False,"{'wickets': 1, 'runs': 88}",6.6,c Linde b Rashid Khan
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,PC,1,WG Jacks,Will Jacks,62,27,39,5,5,229.62,False,False,"{'wickets': 2, 'runs': 94}",7.5,c Roelofsen b Smith
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,PC,1,RR Rossouw,Rilee Rossouw,1,5,10,0,0,20.0,False,False,"{'wickets': 3, 'runs': 94}",8.4,lbw b Rashid Khan
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,PC,1,TB de Bruyn,Theunis de Bruyn,36,26,50,2,2,138.46,False,False,"{'wickets': 6, 'runs': 157}",17.2,c Brevis b Archer
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,PC,1,S Muthusamy,Senuran Muthusamy,3,4,9,0,0,75.0,False,False,"{'wickets': 4, 'runs': 100}",9.5,c Roelofsen b Archer
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,PC,1,C Fortuin,Clyde Fortuin,11,14,24,0,0,78.57,False,False,"{'wickets': 5, 'runs': 132}",14.1, b Rashid Khan
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,PC,1,JDS Neesham,James Neesham,22,18,29,3,0,122.22,False,True,{},,not out
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,PC,1,WD Parnell,Wayne Parnell,1,2,4,0,0,50.0,True,False,"{'wickets': 7, 'runs': 159}",17.5,c Potgieter b Archer
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,PC,1,E Bosch,Eathan Bosch,7,5,12,1,0,140.0,False,False,"{'wickets': 8, 'runs': 180}",19.4,c Rickelton b Smith
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,PC,1,AU Rashid,Adil Rashid,1,1,2,0,0,100.0,False,True,{},,not out
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,D Brevis,Dewald Brevis,46,30,-,4,3,153.33,False,False,"{'wickets': 3, 'runs': 101}",12.4,c Neesham b Nortje
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,RD Rickelton,Ryan Rickelton,11,11,-,2,0,100.0,False,False,"{'wickets': 1, 'runs': 18}",2.4,c sub (M Pretorius) b Bosch
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,SM Curran,Sam Curran,22,18,-,3,1,122.22,False,False,"{'wickets': 2, 'runs': 54}",7.2, b Rashid
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,HE van der Dussen,Rassie van der Dussen,24,25,-,0,1,96.0,False,False,"{'wickets': 6, 'runs': 124}",16.1,lbw b Parnell
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,GF Linde,George Linde,6,5,-,1,0,120.0,False,False,"{'wickets': 4, 'runs': 116}",14.3,c sub (M Pretorius) b Jacks
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,G Roelofsen,Grant Roelofsen,4,5,-,0,0,80.0,False,False,"{'wickets': 5, 'runs': 123}",15.3,c Muthusamy b Rashid
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,OF Smith,Odean Smith,1,6,-,0,0,16.66,False,False,"{'wickets': 7, 'runs': 127}",16.6, b Parnell
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,Rashid Khan,Rashid Khan,2,3,-,0,0,66.66,True,False,"{'wickets': 8, 'runs': 127}",17.1,c Bosch b Nortje
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,D Potgieter,Delano Potgieter,1,1,-,0,0,100.0,False,True,{},,not out
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,JC Archer,Jofra Archer,1,2,-,0,0,50.0,False,False,"{'wickets': 9, 'runs': 129}",17.4,c Parnell b Nortje
+2023,1343960,MICT v PC,PC,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,K Rabada,Kagiso Rabada,1,3,-,0,0,33.33,False,False,"{'wickets': 10, 'runs': 130}",18.1, b Parnell
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,AM Rossington,Adam Rossington,72,30,36,10,4,240.0,False,False,"{'wickets': 1, 'runs': 101}",8.2,run out (Subrayen/de Kock/Mulder)
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,J Hermann,Jordan Hermann,59,44,73,9,1,134.09,False,False,"{'wickets': 2, 'runs': 169}",16.3,c Klaasen b Pretorius
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,AK Markram,Aiden Markram,44,34,55,3,1,129.41,True,True,{},,not out
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,T Stubbs,Tristan Stubbs,27,13,19,1,2,207.69,False,True,{},,not out
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,DSG,2,KR Mayers,Kyle Mayers,11,20,-,0,1,55.0,False,False,"{'wickets': 6, 'runs': 57}",8.6,c Stubbs b van der Merwe
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,DSG,2,MP Breetzke,Matthew Breetzke,3,7,-,0,0,42.85,False,False,"{'wickets': 1, 'runs': 4}",1.5, b Markram
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,DSG,2,PWA Mulder,Wiaan Mulder,29,15,-,4,1,193.33,False,False,"{'wickets': 2, 'runs': 34}",5.3,c Magala b Jansen
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,DSG,2,H Klaasen,Heinrich Klaasen,1,2,-,0,0,50.0,False,False,"{'wickets': 3, 'runs': 35}",6.1, b van der Merwe
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,DSG,2,Q de Kock,Quinton de Kock,0,1,-,0,0,0.0,True,False,"{'wickets': 4, 'runs': 35}",6.2,lbw b van der Merwe
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,DSG,2,JO Holder,Jason Holder,7,8,-,1,0,87.5,False,False,"{'wickets': 5, 'runs': 50}",8.2,c &amp; b van der Merwe
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,DSG,2,D Pretorius,Dwaine Pretorius,3,4,-,0,0,75.0,False,False,"{'wickets': 8, 'runs': 66}",10.1, b van der Merwe
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,DSG,2,KMA Paul,Keemo Paul,7,4,-,0,1,175.0,False,False,"{'wickets': 7, 'runs': 66}",9.6,c Hermann b Crane
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,DSG,2,KA Maharaj,Keshav Maharaj,12,10,-,0,1,120.0,False,True,{},,not out
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,DSG,2,P Subrayen,Prenelan Subrayen,4,8,-,0,0,50.0,False,False,"{'wickets': 9, 'runs': 74}",12.4, b van der Merwe
+2023,1343959,SEC v DSG,SEC,DSG,"St George's Park, Gqeberha",Gqeberha,South Africa,DSG,2,A Dananjaya,Akila Dananjaya,4,9,-,0,0,44.44,False,False,"{'wickets': 10, 'runs': 86}",14.4,c Markram b Smuts
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PC,1,BKG Mendis,Kusal Mendis,37,26,37,5,1,142.3,False,False,"{'wickets': 2, 'runs': 57}",7.2,c Miller b Shamsi
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PC,1,WG Jacks,Will Jacks,4,3,6,1,0,133.33,False,False,"{'wickets': 1, 'runs': 5}",0.6,lbw b Fortuin
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PC,1,TB de Bruyn,Theunis de Bruyn,53,47,82,3,1,112.76,False,False,"{'wickets': 5, 'runs': 135}",17.1,c Lubbe b Adams
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PC,1,RR Rossouw,Rilee Rossouw,19,13,18,3,0,146.15,False,False,"{'wickets': 3, 'runs': 85}",10.5, b Adams
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PC,1,S Dadswell,Shane Dadswell,2,5,7,0,0,40.0,False,False,"{'wickets': 4, 'runs': 91}",12.1,c Miller b Jones
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PC,1,JDS Neesham,James Neesham,21,17,41,2,0,123.52,False,True,{},,not out
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PC,1,E Bosch,Eathan Bosch,5,8,10,0,0,62.5,False,False,"{'wickets': 6, 'runs': 145}",18.6,c Buttler b Ngidi
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PC,1,WD Parnell,Wayne Parnell,5,2,6,1,0,250.0,True,True,{},,not out
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,JJ Roy,Jason Roy,21,16,-,3,0,131.25,False,False,"{'wickets': 1, 'runs': 48}",5.5, b Bosch
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,WJ Lubbe,Wihan Lubbe,29,22,-,2,1,131.81,False,False,"{'wickets': 2, 'runs': 54}",6.6,c Mendis b Rashid
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,JC Buttler,Jos Buttler,37,28,-,4,0,132.14,False,False,"{'wickets': 4, 'runs': 120}",15.3, b Jacks
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,DJ Vilas,Dane Vilas,24,26,-,3,0,92.3,False,False,"{'wickets': 3, 'runs': 119}",15.1,c Neesham b Jacks
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,DA Miller,David Miller,28,14,-,4,0,200.0,True,True,{},,not out
+2023,1343958,PR v PC,PC,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,M Van Buuren,Mitchell Van Buuren,12,12,-,2,0,100.0,False,True,{},,not out
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,AM Rossington,Adam Rossington,40,31,42,4,2,129.03,False,False,"{'wickets': 4, 'runs': 53}",7.6,c Ferreira b Phangiso
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,J Hermann,Jordan Hermann,3,5,12,0,0,60.0,False,False,"{'wickets': 1, 'runs': 16}",2.1,c Joseph b Coetzee
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,SJ Erwee,Sarel Erwee,0,2,3,0,0,0.0,False,False,"{'wickets': 2, 'runs': 16}",2.3,run out (du Plessis)
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,AK Markram,Aiden Markram,5,8,22,0,0,62.5,True,False,"{'wickets': 3, 'runs': 45}",6.2,c Ferreira b Shepherd
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,T Stubbs,Tristan Stubbs,4,10,15,0,0,40.0,False,False,"{'wickets': 5, 'runs': 56}",9.1,st Ferreira b Phangiso
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,JT Smuts,JJ Smuts,22,18,30,2,0,122.22,False,False,"{'wickets': 7, 'runs': 102}",14.3,c Ferreira b Phangiso
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,M Jansen,Marco Jansen,6,5,5,1,0,120.0,False,False,"{'wickets': 6, 'runs': 62}",9.6,c Ferreira b Phangiso
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,JK Fuller,James Fuller,27,20,42,3,0,135.0,False,False,"{'wickets': 10, 'runs': 127}",18.4,c du Plessis b Coetzee
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,BA Carse,Brydon Carse,11,10,13,0,1,110.0,False,False,"{'wickets': 8, 'runs': 116}",16.4, b Coetzee
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,RE van der Merwe,Roelof van der Merwe,4,4,9,0,0,100.0,False,False,"{'wickets': 9, 'runs': 126}",18.2,c du Plessis b Coetzee
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,1,SSB Magala,Sisanda Magala,1,1,3,0,0,100.0,False,True,{},,not out
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,JSK,2,RR Hendricks,Reeza Hendricks,6,7,-,1,0,85.71,False,False,"{'wickets': 1, 'runs': 14}",2.5,c Stubbs b Magala
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,JSK,2,F du Plessis,Faf du Plessis,37,38,-,4,0,97.36,True,False,"{'wickets': 3, 'runs': 80}",12.5,c Jansen b Smuts
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,JSK,2,N Brand,Neil Brand,16,16,-,2,0,100.0,False,False,"{'wickets': 2, 'runs': 59}",8.4, b van der Merwe
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,JSK,2,JL du Plooy,Leus du Plooy,47,40,-,6,0,117.5,False,True,{},,not out
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,JSK,2,BS Makhanya,Sibonelo Makhanya,1,2,-,0,0,50.0,False,False,"{'wickets': 4, 'runs': 86}",13.5,run out (Hermann/Rossington)
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,JSK,2,D Ferreira,Donovan Ferreira,4,8,-,0,0,50.0,False,False,"{'wickets': 5, 'runs': 100}",16.3,st Rossington b van der Merwe
+2023,1343957,SEC v JSK,SEC,JSK,"St George's Park, Gqeberha",Gqeberha,South Africa,JSK,2,R Shepherd,Romario Shepherd,7,9,-,0,0,77.77,False,True,{},,not out
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,MICT,1,RD Rickelton,Ryan Rickelton,5,4,4,1,0,125.0,False,False,"{'wickets': 1, 'runs': 6}",0.6,c &amp; b Fortuin
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,MICT,1,D Brevis,Dewald Brevis,2,10,14,0,0,20.0,False,False,"{'wickets': 3, 'runs': 9}",2.5,lbw b Fortuin
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,MICT,1,SM Curran,Sam Curran,2,3,7,0,0,66.66,False,False,"{'wickets': 2, 'runs': 9}",2.2,run out (Miller/Fortuin)
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,MICT,1,G Roelofsen,Grant Roelofsen,34,30,44,3,0,113.33,False,False,"{'wickets': 4, 'runs': 72}",12.2,c Miller b Adams
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,MICT,1,HE van der Dussen,Rassie van der Dussen,49,42,82,4,1,116.66,False,False,"{'wickets': 9, 'runs': 141}",19.5,c Roy b Adams
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,MICT,1,GF Linde,George Linde,24,14,17,2,1,171.42,False,False,"{'wickets': 5, 'runs': 103}",15.3, b Shamsi
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,MICT,1,D Potgieter,Delano Potgieter,0,2,4,0,0,0.0,False,False,"{'wickets': 6, 'runs': 103}",15.5,st Buttler b Shamsi
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,MICT,1,OF Smith,Odean Smith,6,5,7,1,0,120.0,False,False,"{'wickets': 7, 'runs': 110}",16.5,c Adams b Ngidi
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,MICT,1,Rashid Khan,Rashid Khan,13,7,7,2,0,185.71,True,False,"{'wickets': 8, 'runs': 124}",18.1,c Miller b Ngidi
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,MICT,1,JC Archer,Jofra Archer,2,2,11,0,0,100.0,False,True,{},,not out
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,MICT,1,K Rabada,Kagiso Rabada,0,1,1,0,0,0.0,False,True,{},,not out
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,JJ Roy,Jason Roy,4,8,10,0,0,50.0,False,False,"{'wickets': 1, 'runs': 9}",2.1,c Curran b Linde
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,JC Buttler,Jos Buttler,68,58,87,9,0,117.24,False,False,"{'wickets': 6, 'runs': 121}",18.1,c Roelofsen b Archer
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,WJ Lubbe,Wihan Lubbe,0,1,3,0,0,0.0,False,False,"{'wickets': 2, 'runs': 9}",2.2, b Linde
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,DJ Vilas,Dane Vilas,2,8,14,0,0,25.0,False,False,"{'wickets': 3, 'runs': 27}",5.5, b Rabada
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,M Van Buuren,Mitchell Van Buuren,1,3,4,0,0,33.33,False,False,"{'wickets': 4, 'runs': 30}",6.5, b Rashid Khan
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,DA Miller,David Miller,26,24,39,2,0,108.33,True,False,"{'wickets': 5, 'runs': 89}",15.1,c Archer b Rabada
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,E Jones,Evan Jones,13,12,26,1,0,108.33,False,True,{},,not out
+2023,1343956,PR v MICT,MICT,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,FD Adams,Ferisco Adams,6,6,8,0,0,100.0,False,True,{},,not out
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,DSG,1,KR Mayers,Kyle Mayers,0,1,2,0,0,0.0,False,False,"{'wickets': 1, 'runs': 0}",0.1,c Rashid b Parnell
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,DSG,1,PWA Mulder,Wiaan Mulder,5,7,16,1,0,71.42,False,False,"{'wickets': 2, 'runs': 14}",2.5,lbw b Parnell
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,DSG,1,Q de Kock,Quinton de Kock,13,15,20,1,1,86.66,True,False,"{'wickets': 3, 'runs': 20}",3.6, b Nortje
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,DSG,1,H Klaasen,Heinrich Klaasen,31,24,44,1,2,129.16,False,False,"{'wickets': 6, 'runs': 66}",13.1, b Rashid
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,DSG,1,JO Holder,Jason Holder,10,16,20,0,1,62.5,False,False,"{'wickets': 4, 'runs': 51}",8.5,c Dadswell b Muthusamy
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,DSG,1,C Jonker,Christiaan Jonker,1,5,7,0,0,20.0,False,False,"{'wickets': 5, 'runs': 59}",10.2,c &amp; b Muthusamy
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,DSG,1,D Pretorius,Dwaine Pretorius,4,14,17,0,0,28.57,False,False,"{'wickets': 7, 'runs': 69}",14.5,c Jacks b Muthusamy
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,DSG,1,KA Maharaj,Keshav Maharaj,5,16,26,0,0,31.25,False,False,"{'wickets': 10, 'runs': 80}",18.1,c Dadswell b Nortje
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,DSG,1,GC Viljoen,Hardus Viljoen,2,7,13,0,0,28.57,False,False,"{'wickets': 8, 'runs': 74}",17.1,c Dadswell b Bosch
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,DSG,1,P Subrayen,Prenelan Subrayen,0,1,3,0,0,0.0,False,False,"{'wickets': 9, 'runs': 74}",17.2,lbw b Bosch
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,DSG,1,RJW Topley,Reece Topley,5,3,6,1,0,166.66,False,True,{},,not out
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,PC,2,PD Salt,Phil Salt,0,1,2,0,0,0.0,False,False,"{'wickets': 1, 'runs': 0}",0.1,c Klaasen b Mayers
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,PC,2,WG Jacks,Will Jacks,56,25,34,5,4,224.0,False,False,"{'wickets': 2, 'runs': 78}",6.6,c Subrayen b Maharaj
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,PC,2,TB de Bruyn,Theunis de Bruyn,21,19,35,4,0,110.52,False,True,{},,not out
+2023,1343955,DSG v PC,DSG,PC,"Kingsmead, Durban",Durban,South Africa,PC,2,RR Rossouw,Rilee Rossouw,1,1,3,0,0,100.0,False,True,{},,not out
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,PR,1,JJ Roy,Jason Roy,6,6,16,1,0,100.0,False,False,"{'wickets': 2, 'runs': 18}",2.3, b Markram
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,PR,1,JC Buttler,Jos Buttler,12,9,11,2,0,133.33,False,False,"{'wickets': 1, 'runs': 14}",1.6,c Carse b Magala
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,PR,1,WJ Lubbe,Wihan Lubbe,28,21,50,2,1,133.33,False,False,"{'wickets': 3, 'runs': 58}",7.4, b Carse
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,PR,1,C Bosch,Corbin Bosch,20,29,25,0,0,68.96,False,False,"{'wickets': 6, 'runs': 92}",14.4,c Jansen b van der Merwe
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,PR,1,EJG Morgan,Eoin Morgan,2,5,10,0,0,40.0,False,False,"{'wickets': 4, 'runs': 62}",9.2,c Jansen b Carse
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,PR,1,DA Miller,David Miller,10,9,11,1,0,111.11,True,False,"{'wickets': 5, 'runs': 81}",12.2,c Cox b van der Merwe
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,PR,1,E Jones,Evan Jones,11,11,14,0,0,100.0,False,False,"{'wickets': 7, 'runs': 96}",15.5,c Cox b Markram
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,PR,1,BC Fortuin,Bjorn Fortuin,14,17,27,1,0,82.35,False,True,{},,not out
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,PR,1,Codi Yusuf,Codi Yusuf,12,13,23,0,0,92.3,False,True,{},,not out
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,SEC,2,AM Rossington,Adam Rossington,20,12,17,4,0,166.66,False,False,"{'wickets': 1, 'runs': 35}",3.4, b Ngidi
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,SEC,2,J Hermann,Jordan Hermann,43,39,61,3,2,110.25,False,False,"{'wickets': 4, 'runs': 93}",12.4,c Shamsi b Fortuin
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,SEC,2,SJ Erwee,Sarel Erwee,0,1,2,0,0,0.0,False,False,"{'wickets': 2, 'runs': 35}",3.5, b Ngidi
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,SEC,2,AK Markram,Aiden Markram,23,23,40,1,1,100.0,True,False,"{'wickets': 3, 'runs': 92}",12.1, b Fortuin
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,SEC,2,T Stubbs,Tristan Stubbs,18,12,29,0,1,150.0,False,True,{},,not out
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,SEC,2,JM Cox,Jordan Cox,0,1,2,0,0,0.0,False,False,"{'wickets': 5, 'runs': 93}",12.5, b Fortuin
+2023,1343954,PR v SEC,PR,SEC,"Boland Park, Paarl",Paarl,South Africa,SEC,2,M Jansen,Marco Jansen,21,22,25,1,1,95.45,False,True,{},,not out
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,JSK,1,RR Hendricks,Reeza Hendricks,0,1,2,0,0,0.0,False,False,"{'wickets': 1, 'runs': 0}",0.1,c Salt b Bosch
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,JSK,1,F du Plessis,Faf du Plessis,51,22,33,9,2,231.81,True,False,"{'wickets': 3, 'runs': 70}",6.1,c Salt b Neesham
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,JSK,1,JL du Plooy,Leus du Plooy,14,12,20,1,1,116.66,False,False,"{'wickets': 2, 'runs': 53}",4.1,c Parnell b Pretorius
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,JSK,1,K Verreynne,Kyle Verreynne,3,6,19,0,0,50.0,False,False,"{'wickets': 5, 'runs': 74}",7.3, b Nortje
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,JSK,1,L Gregory,Lewis Gregory,0,2,3,0,0,0.0,False,False,"{'wickets': 4, 'runs': 70}",6.3,c Salt b Neesham
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,JSK,1,D Ferreira,Donovan Ferreira,17,13,25,1,1,130.76,False,False,"{'wickets': 8, 'runs': 90}",10.6, b Rashid
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,JSK,1,R Shepherd,Romario Shepherd,2,7,8,0,0,28.57,False,False,"{'wickets': 6, 'runs': 77}",8.6,c Nortje b Neesham
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,JSK,1,G Coetzee,Gerald Coetzee,0,2,4,0,0,0.0,False,False,"{'wickets': 7, 'runs': 78}",9.4,c &amp; b Nortje
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,JSK,1,AS Joseph,Alzarri Joseph,5,5,12,1,0,100.0,False,False,"{'wickets': 9, 'runs': 96}",11.4,c Neesham b Nortje
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,JSK,1,AM Phangiso,Aaron Phangiso,19,10,24,1,2,190.0,False,True,{},,not out
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,JSK,1,N Burger,Nandre Burger,2,16,21,0,0,12.5,False,False,"{'wickets': 10, 'runs': 122}",15.4,c Jacks b Rashid
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,PD Salt,Phil Salt,52,30,64,6,1,173.33,False,True,{},,not out
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,WG Jacks,Will Jacks,34,16,19,4,2,212.5,False,False,"{'wickets': 1, 'runs': 46}",3.4,c du Plooy b Burger
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,TB de Bruyn,Theunis de Bruyn,0,2,4,0,0,0.0,False,False,"{'wickets': 2, 'runs': 46}",4.1,run out (Joseph)
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,RR Rossouw,Rilee Rossouw,11,7,11,1,1,157.14,False,False,"{'wickets': 3, 'runs': 70}",5.6, b Coetzee
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,S Dadswell,Shane Dadswell,18,22,29,2,0,81.81,False,False,"{'wickets': 4, 'runs': 121}",12.4,c Shepherd b Gregory
+2023,1343953,PC v JSK,JSK,PC,"SuperSport Park, Centurion",Centurion,South Africa,PC,2,JDS Neesham,James Neesham,1,1,2,0,0,100.0,False,True,{},,not out
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,D Brevis,Dewald Brevis,6,8,9,0,0,75.0,False,False,"{'wickets': 1, 'runs': 7}",1.4,c Smuts b Magala
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,RD Rickelton,Ryan Rickelton,46,36,59,4,1,127.77,False,False,"{'wickets': 2, 'runs': 109}",13.1,c van der Merwe b Baartman
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,G Roelofsen,Grant Roelofsen,56,36,53,7,2,155.55,False,False,"{'wickets': 3, 'runs': 110}",13.4,c Cox b Baartman
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,GF Linde,George Linde,8,8,11,1,0,100.0,False,False,"{'wickets': 4, 'runs': 121}",15.1,c &amp; b van der Merwe
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,HE van der Dussen,Rassie van der Dussen,4,5,14,0,0,80.0,False,False,"{'wickets': 6, 'runs': 123}",16.1, b Markram
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,SM Curran,Sam Curran,0,1,3,0,0,0.0,False,False,"{'wickets': 5, 'runs': 121}",15.2,c Markram b van der Merwe
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,D Potgieter,Delano Potgieter,21,13,23,1,2,161.53,False,True,{},,not out
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,OF Smith,Odean Smith,25,13,19,3,1,192.3,False,True,{},,not out
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,SEC,2,AM Rossington,Adam Rossington,11,10,-,1,0,110.0,False,False,"{'wickets': 2, 'runs': 35}",3.1,c Linde b Archer
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,SEC,2,JT Smuts,JJ Smuts,4,2,-,1,0,200.0,False,False,"{'wickets': 1, 'runs': 14}",1.2,run out (Archer)
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,SEC,2,SJ Erwee,Sarel Erwee,19,14,-,3,0,135.71,False,False,"{'wickets': 3, 'runs': 40}",4.6,lbw b Rabada
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,SEC,2,AK Markram,Aiden Markram,12,14,-,1,0,85.71,True,False,"{'wickets': 4, 'runs': 57}",8.1, b Rashid Khan
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,SEC,2,T Stubbs,Tristan Stubbs,28,21,-,0,3,133.33,False,False,"{'wickets': 5, 'runs': 91}",12.1,c Rickelton b Curran
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,SEC,2,JM Cox,Jordan Cox,13,18,-,0,0,72.22,False,False,"{'wickets': 6, 'runs': 101}",14.1,run out (Smith)
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,SEC,2,M Jansen,Marco Jansen,66,27,-,3,7,244.44,False,False,"{'wickets': 8, 'runs': 168}",18.6, b Rabada
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,SEC,2,BA Carse,Brydon Carse,5,8,-,0,0,62.5,False,False,"{'wickets': 7, 'runs': 154}",18.1,c Archer b Rabada
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,SEC,2,RE van der Merwe,Roelof van der Merwe,4,3,-,0,0,133.33,False,True,{},,not out
+2023,1343952,MICT v SEC,MICT,SEC,"Newlands, Cape Town",Cape Town,South Africa,SEC,2,SSB Magala,Sisanda Magala,0,2,-,0,0,0.0,False,True,{},,not out
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,RR Hendricks,Reeza Hendricks,45,50,73,4,1,90.0,False,False,"{'wickets': 2, 'runs': 118}",15.6,c Pretorius b Nortje
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,F du Plessis,Faf du Plessis,27,16,34,5,0,168.75,True,False,"{'wickets': 1, 'runs': 45}",7.1,c Jacks b Nortje
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,JL du Plooy,Leus du Plooy,75,40,63,7,5,187.5,False,True,{},,not out
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,D Ferreira,Donovan Ferreira,3,7,13,0,0,42.85,False,False,"{'wickets': 3, 'runs': 137}",18.1,c Neesham b Parnell
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,R Shepherd,Romario Shepherd,1,2,6,0,0,50.0,False,False,"{'wickets': 4, 'runs': 158}",19.1,c &amp; b Bosch
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,BS Makhanya,Sibonelo Makhanya,4,2,3,1,0,200.0,False,False,"{'wickets': 5, 'runs': 162}",19.3,c Parnell b Bosch
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,G Coetzee,Gerald Coetzee,0,1,2,0,0,0.0,False,False,"{'wickets': 6, 'runs': 162}",19.4,c Jacks b Bosch
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,JSK,1,K Verreynne,Kyle Verreynne,6,2,2,1,0,300.0,False,True,{},,not out
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PC,2,PD Salt,Phil Salt,29,15,38,4,1,193.33,False,False,"{'wickets': 3, 'runs': 59}",6.3,c Shepherd b Phangiso
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PC,2,WG Jacks,Will Jacks,16,13,19,3,0,123.07,False,False,"{'wickets': 1, 'runs': 30}",3.1, b Joseph
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PC,2,RR Rossouw,Rilee Rossouw,0,1,2,0,0,0.0,False,False,"{'wickets': 2, 'runs': 30}",3.2,c Verreynne b Joseph
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PC,2,TB de Bruyn,Theunis de Bruyn,18,19,30,2,0,94.73,False,False,"{'wickets': 4, 'runs': 72}",8.6,lbw b Phangiso
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PC,2,S Dadswell,Shane Dadswell,22,13,25,2,1,169.23,False,False,"{'wickets': 5, 'runs': 93}",11.1, b Phangiso
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PC,2,JDS Neesham,James Neesham,24,16,22,0,3,150.0,False,False,"{'wickets': 6, 'runs': 116}",13.4, b Phangiso
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PC,2,E Bosch,Eathan Bosch,15,17,33,1,0,88.23,False,False,"{'wickets': 7, 'runs': 146}",17.4,c Verreynne b Coetzee
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PC,2,WD Parnell,Wayne Parnell,19,17,42,3,0,111.76,True,True,{},,not out
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PC,2,M Pretorius,Migael Pretorius,5,3,9,0,0,166.66,False,False,"{'wickets': 8, 'runs': 153}",18.4,run out (du Plessis/Verreynne)
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PC,2,AU Rashid,Adil Rashid,8,5,8,0,1,160.0,False,False,"{'wickets': 9, 'runs': 162}",19.5,c du Plessis b Shepherd
+2023,1343951,JSK v PC,JSK,PC,"The Wanderers Stadium, Johannesburg",Johannesburg,South Africa,PC,2,A Nortje,Anrich Nortje,0,1,5,0,0,0.0,False,False,"{'wickets': 10, 'runs': 162}",19.6,c Verreynne b Shepherd
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,PR,1,JJ Roy,Jason Roy,3,13,16,0,0,23.07,False,False,"{'wickets': 1, 'runs': 13}",2.6, b Viljoen
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,PR,1,JC Buttler,Jos Buttler,35,27,41,2,1,129.62,False,False,"{'wickets': 2, 'runs': 66}",8.5,st de Kock b Maharaj
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,PR,1,WJ Lubbe,Wihan Lubbe,57,36,60,5,3,158.33,False,False,"{'wickets': 4, 'runs': 131}",15.6, b Topley
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,PR,1,DJ Vilas,Dane Vilas,12,9,13,0,0,133.33,False,False,"{'wickets': 3, 'runs': 89}",11.3,c de Kock b Subrayen
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,PR,1,DA Miller,David Miller,28,19,40,2,1,147.36,True,False,"{'wickets': 6, 'runs': 159}",19.2,c Maharaj b Pretorius
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,PR,1,EJG Morgan,Eoin Morgan,2,6,8,0,0,33.33,False,False,"{'wickets': 5, 'runs': 142}",17.4,c sub (CJ Dala) b Pretorius
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,PR,1,E Jones,Evan Jones,6,6,12,1,0,100.0,False,True,{},,not out
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,PR,1,FD Adams,Ferisco Adams,10,4,4,0,1,250.0,False,True,{},,not out
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,DSG,2,KR Mayers,Kyle Mayers,12,11,11,2,0,109.09,False,False,"{'wickets': 1, 'runs': 22}",2.5,c &amp; b Fortuin
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,DSG,2,PWA Mulder,Wiaan Mulder,29,24,34,2,2,120.83,False,False,"{'wickets': 4, 'runs': 47}",7.3,c Vilas b Shamsi
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,DSG,2,Q de Kock,Quinton de Kock,0,2,8,0,0,0.0,True,False,"{'wickets': 2, 'runs': 29}",4.2, b Fortuin
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,DSG,2,D Pretorius,Dwaine Pretorius,0,1,4,0,0,0.0,False,False,"{'wickets': 3, 'runs': 29}",4.3,lbw b Fortuin
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,DSG,2,H Klaasen,Heinrich Klaasen,56,39,74,2,2,143.58,False,True,{},,not out
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,DSG,2,JO Holder,Jason Holder,17,12,16,1,1,141.66,False,False,"{'wickets': 5, 'runs': 78}",10.4,c Fortuin b Jones
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,DSG,2,C Jonker,Christiaan Jonker,12,13,17,1,0,92.3,False,False,"{'wickets': 6, 'runs': 109}",14.5,c sub (M Van Buuren) b Jones
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,DSG,2,KA Maharaj,Keshav Maharaj,17,10,16,3,0,170.0,False,False,"{'wickets': 7, 'runs': 135}",17.3,c Roy b Jones
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,DSG,2,GC Viljoen,Hardus Viljoen,0,1,2,0,0,0.0,False,False,"{'wickets': 8, 'runs': 135}",17.4,c Miller b Jones
+2023,1343950,PR v DSG,PR,DSG,"Boland Park, Paarl",Paarl,South Africa,DSG,2,P Subrayen,Prenelan Subrayen,6,7,13,0,0,85.71,False,True,{},,not out
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,MICT,1,D Brevis,Dewald Brevis,15,28,-,1,0,53.57,False,False,"{'wickets': 3, 'runs': 45}",7.5,c Stubbs b Markram
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,MICT,1,RD Rickelton,Ryan Rickelton,7,7,-,1,0,100.0,False,False,"{'wickets': 1, 'runs': 11}",1.6,c Cox b Magala
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,MICT,1,G Roelofsen,Grant Roelofsen,8,7,-,2,0,114.28,False,False,"{'wickets': 2, 'runs': 30}",4.6,c Magala b Baartman
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,MICT,1,SM Curran,Sam Curran,8,10,-,0,0,80.0,False,False,"{'wickets': 4, 'runs': 52}",9.4,c Rossington b Markram
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,MICT,1,HE van der Dussen,Rassie van der Dussen,29,22,-,4,1,131.81,False,False,"{'wickets': 5, 'runs': 111}",15.1,lbw b Magala
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,MICT,1,GF Linde,George Linde,63,28,-,4,5,225.0,False,True,{},,not out
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,MICT,1,OF Smith,Odean Smith,10,8,-,0,1,125.0,False,False,"{'wickets': 6, 'runs': 124}",16.5,c Fuller b Jansen
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,MICT,1,D Potgieter,Delano Potgieter,2,4,-,0,0,50.0,False,False,"{'wickets': 7, 'runs': 137}",17.6,c Jansen b Baartman
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,MICT,1,Rashid Khan,Rashid Khan,5,6,-,1,0,83.33,True,False,"{'wickets': 8, 'runs': 158}",19.6, b Baartman
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,AM Rossington,Adam Rossington,0,1,-,0,0,0.0,False,False,"{'wickets': 1, 'runs': 0}",0.1,c Rabada b Curran
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,JT Smuts,JJ Smuts,8,7,-,2,0,114.28,False,False,"{'wickets': 2, 'runs': 9}",2.3,lbw b Curran
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,SJ Erwee,Sarel Erwee,41,35,-,3,2,117.14,False,False,"{'wickets': 3, 'runs': 101}",12.1,lbw b Rashid Khan
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,AK Markram,Aiden Markram,50,35,-,7,0,142.85,True,False,"{'wickets': 4, 'runs': 107}",13.2,c Rickelton b Smith
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,T Stubbs,Tristan Stubbs,30,18,-,2,1,166.66,False,False,"{'wickets': 6, 'runs': 154}",19.1,c Roelofsen b Smith
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,JM Cox,Jordan Cox,1,2,-,0,0,50.0,False,False,"{'wickets': 5, 'runs': 109}",13.5,lbw b Smith
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,M Jansen,Marco Jansen,16,17,-,0,1,94.11,False,True,{},,not out
+2023,1343949,SEC v MICT,MICT,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,JK Fuller,James Fuller,8,2,-,2,0,400.0,False,True,{},,not out
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,DSG,1,KR Mayers,Kyle Mayers,39,23,28,6,1,169.56,False,False,"{'wickets': 1, 'runs': 62}",5.5,c Buttler b Jones
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,DSG,1,PWA Mulder,Wiaan Mulder,42,33,67,4,1,127.27,False,False,"{'wickets': 2, 'runs': 147}",13.6,c Miller b Jones
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,DSG,1,Q de Kock,Quinton de Kock,57,31,44,5,4,183.87,True,False,"{'wickets': 3, 'runs': 151}",14.4,c Jones b Ngidi
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,DSG,1,H Klaasen,Heinrich Klaasen,50,19,29,1,6,263.15,False,True,{},,not out
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,DSG,1,KMA Paul,Keemo Paul,7,9,17,0,0,77.77,False,False,"{'wickets': 4, 'runs': 182}",18.1,c &amp; b Ngidi
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,DSG,1,D Pretorius,Dwaine Pretorius,7,5,9,0,1,140.0,False,True,{},,not out
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,PR,2,JJ Roy,Jason Roy,33,23,38,4,1,143.47,False,False,"{'wickets': 4, 'runs': 63}",7.6, b Subrayen
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,PR,2,JC Buttler,Jos Buttler,2,7,11,0,0,28.57,False,False,"{'wickets': 1, 'runs': 17}",2.5, b Topley
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,PR,2,WJ Lubbe,Wihan Lubbe,18,11,17,3,0,163.63,False,False,"{'wickets': 2, 'runs': 55}",6.1,c Holder b Pretorius
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,PR,2,DA Miller,David Miller,1,3,5,0,0,33.33,True,False,"{'wickets': 3, 'runs': 57}",6.5,c Holder b Pretorius
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,PR,2,EJG Morgan,Eoin Morgan,64,37,60,2,5,172.97,False,False,"{'wickets': 5, 'runs': 177}",17.6,run out (Harmer/Mulder)
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,PR,2,DJ Vilas,Dane Vilas,44,30,59,3,2,146.66,False,False,"{'wickets': 7, 'runs': 178}",18.3,c sub (CJ Dala) b Topley
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,PR,2,E Jones,Evan Jones,0,1,2,0,0,0.0,False,False,"{'wickets': 6, 'runs': 177}",18.1,c sub (CJ Dala) b Topley
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,PR,2,FD Adams,Ferisco Adams,2,3,8,0,0,66.66,False,False,"{'wickets': 8, 'runs': 184}",19.1,c Klaasen b Mulder
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,PR,2,BC Fortuin,Bjorn Fortuin,6,4,8,1,0,150.0,False,True,{},,not out
+2023,1343948,DSG v PR,DSG,PR,"Kingsmead, Durban",Durban,South Africa,PR,2,I Manack,Imran Manack,4,3,4,0,0,133.33,False,True,{},,not out
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,JSK,1,JN Malan,Janneman Malan,16,21,20,2,1,76.19,False,False,"{'wickets': 2, 'runs': 27}",4.4,c Rashid Khan b Linde
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,JSK,1,RR Hendricks,Reeza Hendricks,2,6,16,0,0,33.33,False,False,"{'wickets': 1, 'runs': 25}",3.4, b Rabada
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,JSK,1,F du Plessis,Faf du Plessis,8,14,19,0,0,57.14,True,False,"{'wickets': 4, 'runs': 41}",7.4, b Waqar Salamkheil
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,JSK,1,K Verreynne,Kyle Verreynne,4,2,5,1,0,200.0,False,False,"{'wickets': 3, 'runs': 31}",4.6,c Potgieter b Linde
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,JSK,1,JL du Plooy,Leus du Plooy,21,26,38,1,0,80.76,False,False,"{'wickets': 6, 'runs': 75}",14.1,c Rickelton b Smith
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,JSK,1,D Ferreira,Donovan Ferreira,7,8,11,1,0,87.5,False,False,"{'wickets': 5, 'runs': 54}",10.2, b Rashid Khan
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,JSK,1,R Shepherd,Romario Shepherd,5,14,22,0,0,35.71,False,False,"{'wickets': 7, 'runs': 79}",14.6,c Rickelton b Smith
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,JSK,1,GHS Garton,George Garton,13,15,30,1,0,86.66,False,True,{},,not out
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,JSK,1,AS Joseph,Alzarri Joseph,2,5,8,0,0,40.0,False,False,"{'wickets': 8, 'runs': 83}",16.2,c Brevis b Rashid Khan
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,JSK,1,G Coetzee,Gerald Coetzee,1,4,6,0,0,25.0,False,False,"{'wickets': 9, 'runs': 84}",17.1,c Roelofsen b Rabada
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,JSK,1,AM Phangiso,Aaron Phangiso,10,8,13,1,0,125.0,False,True,{},,not out
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,D Brevis,Dewald Brevis,42,34,52,2,3,123.52,False,False,"{'wickets': 2, 'runs': 75}",10.6,c Phangiso b Coetzee
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,RD Rickelton,Ryan Rickelton,21,24,40,2,0,87.5,False,False,"{'wickets': 1, 'runs': 65}",8.4,c Joseph b Coetzee
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,HE van der Dussen,Rassie van der Dussen,14,23,39,1,0,60.86,False,True,{},,not out
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,G Roelofsen,Grant Roelofsen,5,8,14,0,0,62.5,False,False,"{'wickets': 3, 'runs': 87}",14.1,c Malan b Shepherd
+2023,1343947,MICT v JSK,JSK,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,SM Curran,Sam Curran,15,9,13,1,1,166.66,False,True,{},,not out
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,PD Salt,Phil Salt,1,2,-,0,0,50.0,False,False,"{'wickets': 1, 'runs': 13}",1.1,lbw b Magala
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,WG Jacks,Will Jacks,92,46,-,7,8,200.0,False,False,"{'wickets': 4, 'runs': 166}",14.3,c Cox b Jansen
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,RR Rossouw,Rilee Rossouw,20,15,-,3,1,133.33,False,False,"{'wickets': 2, 'runs': 47}",4.3,c Cox b Carse
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,TB de Bruyn,Theunis de Bruyn,42,23,-,2,4,182.6,False,False,"{'wickets': 3, 'runs': 158}",13.3,c Cox b Magala
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,JDS Neesham,James Neesham,18,10,-,2,1,180.0,False,False,"{'wickets': 5, 'runs': 187}",16.3, b Baartman
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,S Dadswell,Shane Dadswell,20,14,-,1,1,142.85,False,True,{},,not out
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,WD Parnell,Wayne Parnell,0,1,-,0,0,0.0,True,False,"{'wickets': 6, 'runs': 187}",16.4, b Baartman
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,M Pretorius,Migael Pretorius,11,10,-,0,1,110.0,False,True,{},,not out
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,SEC,2,SJ Erwee,Sarel Erwee,8,5,-,0,1,160.0,False,False,"{'wickets': 1, 'runs': 15}",1.2,c Jacks b Parnell
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,SEC,2,JT Smuts,JJ Smuts,28,25,-,3,1,112.0,False,False,"{'wickets': 3, 'runs': 82}",9.1,lbw b Neesham
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,SEC,2,JM Cox,Jordan Cox,0,1,-,0,0,0.0,False,False,"{'wickets': 2, 'runs': 15}",1.3,c Salt b Parnell
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,SEC,2,AK Markram,Aiden Markram,46,29,-,5,2,158.62,True,False,"{'wickets': 4, 'runs': 88}",10.3,c Pretorius b Bosch
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,SEC,2,T Stubbs,Tristan Stubbs,12,10,-,1,0,120.0,False,False,"{'wickets': 6, 'runs': 104}",13.1, b Rashid
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,SEC,2,MJ Ackerman,Marques Ackerman,8,9,-,0,0,88.88,False,False,"{'wickets': 5, 'runs': 104}",12.5, b Nortje
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,SEC,2,JK Fuller,James Fuller,11,9,-,1,0,122.22,False,False,"{'wickets': 7, 'runs': 119}",15.1,c Jacks b Rashid
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,SEC,2,M Jansen,Marco Jansen,36,20,-,2,3,180.0,False,True,{},,not out
+2023,1343946,PC v SEC,PC,SEC,"SuperSport Park, Centurion",Centurion,South Africa,SEC,2,BA Carse,Brydon Carse,26,13,-,3,1,200.0,False,True,{},,not out
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,D Brevis,Dewald Brevis,0,2,4,0,0,0.0,False,False,"{'wickets': 1, 'runs': 0}",0.2, b Mayers
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,RD Rickelton,Ryan Rickelton,14,14,22,1,1,100.0,False,False,"{'wickets': 2, 'runs': 24}",3.6,c de Kock b Topley
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,G Roelofsen,Grant Roelofsen,52,44,66,4,1,118.18,False,False,"{'wickets': 5, 'runs': 105}",14.6,c Topley b Holder
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,HE van der Dussen,Rassie van der Dussen,1,3,13,0,0,33.33,False,False,"{'wickets': 3, 'runs': 45}",6.3,c Paul b Subrayen
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,SM Curran,Sam Curran,0,3,5,0,0,0.0,False,False,"{'wickets': 4, 'runs': 45}",6.6,lbw b Subrayen
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,GF Linde,George Linde,33,25,34,0,4,132.0,False,False,"{'wickets': 6, 'runs': 105}",15.1,c Pretorius b Viljoen
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,D Jansen,Duan Jansen,7,5,30,1,0,140.0,False,True,{},,not out
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,Rashid Khan,Rashid Khan,14,13,12,1,1,107.69,True,False,"{'wickets': 7, 'runs': 121}",17.4,c Maharaj b Topley
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,MICT,1,D Potgieter,Delano Potgieter,25,11,15,0,3,227.27,False,False,"{'wickets': 8, 'runs': 152}",19.6,c Mulder b Viljoen
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,DSG,2,KR Mayers,Kyle Mayers,34,23,33,4,2,147.82,False,False,"{'wickets': 2, 'runs': 62}",6.5,c Roelofsen b Linde
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,DSG,2,Q de Kock,Quinton de Kock,11,8,17,2,0,137.5,True,False,"{'wickets': 1, 'runs': 35}",3.3,c Potgieter b Stone
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,DSG,2,PWA Mulder,Wiaan Mulder,30,26,48,4,0,115.38,False,False,"{'wickets': 4, 'runs': 130}",14.1, b Stone
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,DSG,2,H Klaasen,Heinrich Klaasen,36,22,26,4,1,163.63,False,False,"{'wickets': 3, 'runs': 118}",12.3,c Rickelton b Stone
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,DSG,2,JO Holder,Jason Holder,11,10,20,0,1,110.0,False,True,{},,not out
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,DSG,2,D Pretorius,Dwaine Pretorius,0,2,3,0,0,0.0,False,False,"{'wickets': 5, 'runs': 130}",14.3,lbw b Stone
+2023,1343945,MICT v DSG,MICT,DSG,"Newlands, Cape Town",Cape Town,South Africa,DSG,2,KMA Paul,Keemo Paul,20,8,10,0,3,250.0,False,True,{},,not out
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,JSK,1,JN Malan,Janneman Malan,2,4,11,0,0,50.0,False,False,"{'wickets': 1, 'runs': 6}",2.1,lbw b Fortuin
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,JSK,1,RR Hendricks,Reeza Hendricks,4,11,14,0,0,36.36,False,False,"{'wickets': 2, 'runs': 7}",2.4,c Miller b Fortuin
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,JSK,1,F du Plessis,Faf du Plessis,2,6,9,0,0,33.33,True,False,"{'wickets': 3, 'runs': 9}",3.4,c Lubbe b Ngidi
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,JSK,1,K Verreynne,Kyle Verreynne,11,10,28,1,0,110.0,False,False,"{'wickets': 6, 'runs': 35}",7.6,lbw b Shamsi
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,JSK,1,L Gregory,Lewis Gregory,2,5,6,0,0,40.0,False,False,"{'wickets': 4, 'runs': 16}",4.6, b Fortuin
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,JSK,1,D Ferreira,Donovan Ferreira,6,8,10,1,0,75.0,False,False,"{'wickets': 5, 'runs': 25}",6.5, b Jones
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,JSK,1,R Shepherd,Romario Shepherd,7,6,11,0,1,116.66,False,False,"{'wickets': 7, 'runs': 36}",8.2,lbw b Adams
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,JSK,1,GHS Garton,George Garton,3,6,20,0,0,50.0,False,False,"{'wickets': 9, 'runs': 55}",11.6, b Jones
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,JSK,1,AS Joseph,Alzarri Joseph,13,11,9,2,0,118.18,False,False,"{'wickets': 8, 'runs': 50}",10.3, b Adams
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,JSK,1,LB Williams,Lizaad Williams,17,18,28,2,0,94.44,False,True,{},,not out
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,JSK,1,AM Phangiso,Aaron Phangiso,10,19,21,0,0,52.63,False,False,"{'wickets': 10, 'runs': 81}",17.2,c Buttler b Jones
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,JJ Roy,Jason Roy,12,13,12,2,0,92.3,False,False,"{'wickets': 1, 'runs': 12}",2.4,c Shepherd b Garton
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,JC Buttler,Jos Buttler,29,21,53,4,0,138.09,False,True,{},,not out
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,WJ Lubbe,Wihan Lubbe,19,13,18,4,0,146.15,False,False,"{'wickets': 2, 'runs': 46}",5.5,c Joseph b Shepherd
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,DJ Vilas,Dane Vilas,13,13,19,1,0,100.0,False,False,"{'wickets': 3, 'runs': 70}",9.2,c Shepherd b Phangiso
+2023,1343944,PR v JSK,JSK,PR,"Boland Park, Paarl",Paarl,South Africa,PR,2,DA Miller,David Miller,8,4,6,0,1,200.0,True,True,{},,not out
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,PC,1,PD Salt,Phil Salt,77,47,100,11,0,163.82,False,True,{},,not out
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,PC,1,WG Jacks,Will Jacks,6,4,6,1,0,150.0,False,False,"{'wickets': 1, 'runs': 9}",0.5,c Cox b Jansen
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,PC,1,RR Rossouw,Rilee Rossouw,4,3,7,1,0,133.33,False,False,"{'wickets': 2, 'runs': 14}",1.4,c Crane b Magala
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,PC,1,TB de Bruyn,Theunis de Bruyn,19,12,19,1,1,158.33,False,False,"{'wickets': 3, 'runs': 45}",4.4, b Baartman
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,PC,1,S Muthusamy,Senuran Muthusamy,13,16,26,0,0,81.25,False,False,"{'wickets': 4, 'runs': 80}",9.2,c Jansen b Markram
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,PC,1,S Dadswell,Shane Dadswell,0,1,2,0,0,0.0,False,False,"{'wickets': 5, 'runs': 80}",9.3,c Baartman b Markram
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,PC,1,JDS Neesham,James Neesham,37,28,36,4,1,132.14,False,False,"{'wickets': 6, 'runs': 157}",17.5,c Markram b Baartman
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,PC,1,WD Parnell,Wayne Parnell,29,9,10,2,3,322.22,True,True,{},,not out
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,JT Smuts,JJ Smuts,66,51,72,6,4,129.41,False,False,"{'wickets': 5, 'runs': 133}",16.5,c Bosch b Rashid
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,SJ Erwee,Sarel Erwee,1,3,6,0,0,33.33,False,False,"{'wickets': 1, 'runs': 2}",1.1,c Jacks b Parnell
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,JM Cox,Jordan Cox,5,11,15,1,0,45.45,False,False,"{'wickets': 2, 'runs': 21}",4.3,c Parnell b Nortje
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,AK Markram,Aiden Markram,5,8,14,1,0,62.5,True,False,"{'wickets': 3, 'runs': 34}",7.3,c Bosch b Neesham
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,T Stubbs,Tristan Stubbs,23,11,14,2,2,209.09,False,False,"{'wickets': 4, 'runs': 68}",10.2, b Nortje
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,TB Abell,Tom Abell,40,24,42,4,1,166.66,False,True,{},,not out
+2023,1343943,SEC v PC,PC,SEC,"St George's Park, Gqeberha",Gqeberha,South Africa,SEC,2,JK Fuller,James Fuller,27,12,17,2,1,225.0,False,True,{},,not out
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,JSK,1,JN Malan,Janneman Malan,5,12,12,0,0,41.66,False,False,"{'wickets': 2, 'runs': 8}",2.5,c Mulder b Pretorius
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,JSK,1,RR Hendricks,Reeza Hendricks,1,3,6,0,0,33.33,False,False,"{'wickets': 1, 'runs': 4}",1.2,c &amp; b Maharaj
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,JSK,1,F du Plessis,Faf du Plessis,39,33,53,3,0,118.18,True,False,"{'wickets': 5, 'runs': 99}",13.6,c Mayers b Dananjaya
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,JSK,1,K Verreynne,Kyle Verreynne,10,9,12,2,0,111.11,False,False,"{'wickets': 3, 'runs': 25}",5.3,c Maharaj b Subrayen
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,JSK,1,L Gregory,Lewis Gregory,2,3,4,0,0,66.66,False,False,"{'wickets': 4, 'runs': 27}",5.6,c Maharaj b Subrayen
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,JSK,1,D Ferreira,Donovan Ferreira,82,40,62,8,5,205.0,False,True,{},,not out
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,JSK,1,R Shepherd,Romario Shepherd,40,19,33,2,4,210.52,False,False,"{'wickets': 6, 'runs': 186}",19.5, b Holder
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,JSK,1,GHS Garton,George Garton,4,1,1,1,0,400.0,False,True,{},,not out
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,KR Mayers,Kyle Mayers,39,29,57,2,3,134.48,False,False,"{'wickets': 1, 'runs': 98}",10.6,st Verreynne b Phangiso
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,Q de Kock,Quinton de Kock,78,52,68,5,5,150.0,True,False,"{'wickets': 2, 'runs': 126}",13.6,c &amp; b Ferreira
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,H Klaasen,Heinrich Klaasen,20,21,29,1,0,95.23,False,False,"{'wickets': 3, 'runs': 153}",17.6,c du Plessis b Joseph
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,PWA Mulder,Wiaan Mulder,10,9,20,0,1,111.11,False,False,"{'wickets': 4, 'runs': 153}",18.1,c Phangiso b Siboto
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,JO Holder,Jason Holder,2,4,18,0,0,50.0,False,True,{},,not out
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,D Pretorius,Dwaine Pretorius,14,6,14,0,2,233.33,False,False,"{'wickets': 5, 'runs': 173}",19.5,lbw b Joseph
+2023,1343942,DSG v JSK,JSK,DSG,"Kingsmead, Durban",Durban,South Africa,DSG,2,KMA Paul,Keemo Paul,1,1,2,0,0,100.0,False,True,{},,not out
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,PR,1,WJ Lubbe,Wihan Lubbe,3,8,12,0,0,37.5,False,False,"{'wickets': 1, 'runs': 9}",2.3,c Linde b Archer
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,PR,1,JC Buttler,Jos Buttler,51,42,71,6,1,121.42,False,False,"{'wickets': 4, 'runs': 104}",15.1, b Stone
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,PR,1,JJ Roy,Jason Roy,13,14,23,2,0,92.85,False,False,"{'wickets': 2, 'runs': 45}",6.6,c Rashid Khan b Jansen
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,PR,1,DJ Vilas,Dane Vilas,6,7,11,1,0,85.71,False,False,"{'wickets': 3, 'runs': 56}",9.2, b Stone
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,PR,1,DA Miller,David Miller,42,31,41,4,1,135.48,True,False,"{'wickets': 5, 'runs': 133}",18.3,c Linde b Archer
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,PR,1,EJG Morgan,Eoin Morgan,19,15,21,1,1,126.66,False,False,"{'wickets': 7, 'runs': 142}",19.6,run out (Curran/Roelofsen)
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,PR,1,FD Adams,Ferisco Adams,0,1,2,0,0,0.0,False,False,"{'wickets': 6, 'runs': 133}",18.4,c Rickelton b Archer
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,PR,1,BC Fortuin,Bjorn Fortuin,1,3,7,0,0,33.33,False,True,{},,not out
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,D Brevis,Dewald Brevis,70,41,73,4,5,170.73,False,True,{},,not out
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,RD Rickelton,Ryan Rickelton,42,33,44,5,1,127.27,False,False,"{'wickets': 1, 'runs': 90}",10.4, b Simmonds
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,SM Curran,Sam Curran,20,16,20,1,2,125.0,False,False,"{'wickets': 2, 'runs': 120}",14.1,c Miller b Codi Yusuf
+2023,1343941,MICT v PR,PR,MICT,"Newlands, Cape Town",Cape Town,South Africa,MICT,2,HE van der Dussen,Rassie van der Dussen,8,3,9,0,1,266.66,False,True,{},,not out

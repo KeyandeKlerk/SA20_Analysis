@@ -69,7 +69,7 @@ class BowlingData:
 
         return best_bowler_df
 
-    def get_tournament_stats(self) -> pd.DataFrame:
+    def get_all_performances(self) -> pd.DataFrame:
         """
         Calculates and returns the tournament statistics for the bowlers.
 
@@ -115,6 +115,19 @@ class BowlingData:
             "wides_bowled",
             "no_balls_bowled",
         ]
+
+        average = self.bowling_df.groupby('fullName').apply(
+            lambda x: (x['conceded'].sum() / x['wickets'].sum()))
+
+        grouped['average'] = average.values
+
+        # Calculate bowling average for each player
+        average = self.bowling_df.groupby('fullName').apply(
+            lambda x: x['conceded'].sum() / x['wickets'].sum() if x['wickets'].sum() != 0 else float('nan'))
+
+        # Add bowling average to the grouped DataFrame
+        grouped['average'] = average.values
+
         # Reset the index
         return grouped.reset_index()
 

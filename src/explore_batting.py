@@ -11,6 +11,8 @@ class BattingData:
     def get_all_performances(self):
         grouped = self.batting_df.groupby("fullName").agg(
             {
+                "current_innings": lambda x: x.tail(1).iloc[0],
+                "isNotOut": "sum",
                 "runs": "sum",
                 "ballsFaced": "sum",
                 "fours": "sum",
@@ -18,13 +20,34 @@ class BattingData:
                 "strikeRate": "mean",
             }
         )
+
+        # Calculate the batting average
+        grouped = grouped.assign(
+            batting_average=grouped["runs"] / grouped["isNotOut"]
+        )
+
+        # Calculate boundary percentage for each player
+        boundary_percentage = self.batting_df.groupby('fullName').apply(
+            lambda x: ((x['fours'].sum() * 4) + (x['sixes'].sum() * 6)) / x['runs'].sum() * 100)
+
+        # Add boundary percentage to the grouped DataFrame
+        grouped['boundary_percentage'] = boundary_percentage.values
+
+        total_innings = self.batting_df.groupby("fullName").size()
+        grouped['total_innings'] = total_innings
+
         # Rename the columns
         grouped.columns = [
+            "team",
+            "total_out",
             "total_runs",
             "total_balls",
             "total_fours",
             "total_sixes",
             "avg_strike_rate",
+            "batting_average",
+            "boundary_percentage",
+            "total_innings"
         ]
 
         # Reset the index
