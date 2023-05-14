@@ -69,6 +69,13 @@ class BowlingData:
 
         return best_bowler_df
 
+    def calculate_balls(self, bowling_df):
+        overs = int(bowling_df['overs'].sum())
+        # sum the decimal parts of overs
+        balls_decimal = (bowling_df['overs'].sum() - overs).sum()
+        balls_bowled = overs * 6 + int(round(balls_decimal * 10))
+        return balls_bowled
+
     def get_all_performances(self) -> pd.DataFrame:
         """
         Calculates and returns the tournament statistics for the bowlers.
@@ -123,10 +130,24 @@ class BowlingData:
 
         # Calculate bowling average for each player
         average = self.bowling_df.groupby('fullName').apply(
-            lambda x: x['conceded'].sum() / x['wickets'].sum() if x['wickets'].sum() != 0 else float('nan'))
+            lambda x: x['conceded'].sum() / x['wickets'].sum() if x['wickets'].sum() != 0 else np.NaN)
 
         # Add bowling average to the grouped DataFrame
         grouped['average'] = average.values
+
+        # apply the function to the "overs" column and create a new column "balls_bowled"
+        balls_bowled = self.bowling_df.groupby(
+            'fullName').apply(self.calculate_balls)
+        grouped["balls_bowled"] = balls_bowled.values
+
+        # calculate total number of wickets taken by each player
+        wickets_taken = self.bowling_df['wickets'].groupby(
+            self.bowling_df['fullName']).sum()
+
+        # calculate strike rate for each player
+        strike_rate = (balls_bowled / wickets_taken).replace(np.inf, np.nan)
+
+        grouped['strike_rate'] = strike_rate.values
 
         # Reset the index
         return grouped.reset_index()

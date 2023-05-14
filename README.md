@@ -1,7 +1,7 @@
 # Exploratory Data Analysis - South Africa T20 Cricket League, 2023
 
 This project is a data analysis program designed to analyze the results from the recently concluded SA20 cricket competition. 
-The opening SA20 season features six sides:
+The opening [SA20](http://sa20.co.za) season features six sides:
 * Durban's Super Giants (Captain: Quinton de Kock / Head Coach: Lance Klusener)
 * Joburg Super Kings (Captain: Faf du Plessis / Head Coach: Stephen Fleming)
 * Mumbai Indians Cape Town (Captain: Rashid Khan / Head Coach: Simon Katich)
