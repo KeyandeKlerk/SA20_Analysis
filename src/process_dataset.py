@@ -101,6 +101,9 @@ class DatasetCleaner:
             logging.error(
                 "Duplicate rows were detected for /input/bowling_card.csv")
 
+        if "href" in bowling_df.columns:
+            bowling_df.drop("href", axis=1, inplace=True)
+
         return bowling_df
 
     def clean_details(self, details_df) -> pd.DataFrame:
