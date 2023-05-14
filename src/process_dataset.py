@@ -3,13 +3,18 @@ import logging
 import pandas as pd
 
 
+def configure_logging():
+    """Configure the logging module."""
+    logging.basicConfig(
+        filename="./log/SA20_analysis.log",
+        level=logging.DEBUG,
+        format="%(asctime)s:%(levelname)s:%(message)s",
+    )
+
+
 class DatasetCleaner:
     def __init__(self):
-        self.logging = logging.basicConfig(
-            filename="./log/SA20_analysis.log",
-            level=logging.DEBUG,
-            format="%(asctime)s:%(levelname)s:%(message)s",
-        )
+        configure_logging()
 
     def read_dataset(
         self,
@@ -59,12 +64,21 @@ class DatasetCleaner:
         Returns:
             pd.DataFrame: the cleaned batting_df dataframe
         """
-        batting_df.drop("link", axis=1, inplace=True)
+        if "link" in batting_df.columns:
+            batting_df.drop("link", axis=1, inplace=True)
+
         duplicate_rows = batting_df.duplicated().sum()
         if duplicate_rows > 0:
             logging.error(
                 f"{duplicate_rows} duplicate rows were detected for /input/batting_card.csv"
             )
+
+        # Define a lambda function to replace single quotes with double quotes
+        def replace_quotes(x): return x.replace("'", '"')
+
+        # Apply the lambda function to the 'column1' column
+        batting_df['runningScore'] = batting_df['runningScore'].apply(
+            replace_quotes)
 
         return batting_df
 
