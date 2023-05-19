@@ -31,12 +31,12 @@ class DetailsData:
         return innings_1_count_df, innings_2_count_df
 
     def likelihood_of_six_per_over(self):
-        sixes = self.details_df[self.details_df["runs"] == 6].copy()
+        sixes: pd.DataFrame = self.details_df[self.details_df["runs"] == 6].copy()
         sixes_by_over = sixes.groupby("over")["runs"].count()
         total_sixes = sixes["runs"].count()
         sixes_by_over_total = sixes.groupby("over")["runs"].sum()
         six_probs = {}
         for over, sixes_at_over in sixes_by_over.iteritems():  # type: ignore
-            six_prob = sixes_at_over / total_sixes
+            six_prob = (sixes_at_over / total_sixes) * 100
             six_probs[over] = six_prob
         return six_probs, sixes_by_over_total

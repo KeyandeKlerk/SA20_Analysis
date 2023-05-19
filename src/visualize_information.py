@@ -1,3 +1,4 @@
+from typing import Dict, Tuple
 import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 import pandas as pd
@@ -51,11 +52,8 @@ class VisualizeInformation:
         # Save the bar chart to a folder (change the path as per your requirement)
         plt.savefig("result/batsman_graphs/top_10_batsmen.png")
 
-        # Display the chart
-        plt.show()
-
     def show_best_batsman_per_game(self, best_df: pd.DataFrame) -> None:
-        # Visualize the data
+        # Visualize the lowest_scores
         plt.figure(figsize=(10, 6))
         plt.bar(
             best_df["match_id"] - 1343940,
@@ -76,7 +74,6 @@ class VisualizeInformation:
 
         # Save the bar chart to a folder (change the path as per your requirement)
         plt.savefig("result/batsman_graphs/best_batsman_per_game.png")
-        plt.show()
 
     def show_best_home_away_batsmen(
         self,
@@ -135,10 +132,9 @@ class VisualizeInformation:
         plt.tight_layout()
 
         # Save the plot to a file
-        plt.savefig(f"result/best_{str.lower(home_or_away)}_batsmen.png")
+        plt.savefig(f"result/batsman_graphs/best_{str.lower(home_or_away)}_batsmen.png")
 
         # Show the plot
-        plt.show()
 
     def show_most_boundaries(self, all_performances: pd.DataFrame):
         # Create a new dataframe with the top 10 players based on total_runs
@@ -176,9 +172,6 @@ class VisualizeInformation:
         # Save the bar chart to a folder (change the path as per your requirement)
         plt.savefig("result/batsman_graphs/top_10_boundary_percentage.png")
 
-        # Display the chart
-        plt.show()
-
     def show_top10_bowlers(self, bowling_df: pd.DataFrame) -> None:
         # Create a new dataframe with the top 10 players based on total_runs
         top_10_players = bowling_df.nlargest(10, "total_wickets")
@@ -215,11 +208,8 @@ class VisualizeInformation:
         # Save the bar chart to a folder (change the path as per your requirement)
         plt.savefig("result/bowler_graphs/top_10_bowlers.png")
 
-        # Display the chart
-        plt.show()
-
     def show_best_bowler_per_game(self, best_df: pd.DataFrame) -> None:
-        # Visualize the data
+        # Visualize the lowest_scores
         plt.figure(figsize=(10, 6))
         plt.bar(
             best_df["match_id"] - 1343940,
@@ -247,7 +237,6 @@ class VisualizeInformation:
 
         # Save the bar chart to a folder (change the path as per your requirement)
         plt.savefig("result/bowler_graphs/best_bowler_per_game.png")
-        plt.show()
 
     def show_best_home_away_bowler(
         self,
@@ -309,4 +298,162 @@ class VisualizeInformation:
         plt.savefig(f"result/bowler_graphs/best_{str.lower(home_or_away)}_bowler.png")
 
         # Show the plot
-        plt.show()
+
+    def show_probability_six_per_over(self, prob_six_per_over: Dict) -> None:
+        plt.figure(figsize=(10, 6))
+        x = list(prob_six_per_over.keys())
+        y = list(prob_six_per_over.values())
+
+        plt.plot(x, y)
+        plt.xlabel("Over")
+        plt.ylabel("Probability of 6")
+        plt.title("Probability of 6 Per Over")
+        plt.xlim(1, 20)
+        # Save the plot to a file
+        plt.savefig(f"result/details_graphs/probability_six_per_over.png")
+
+    def show_total_sixes_per_over(self, total_sixes) -> None:
+        plt.figure(figsize=(10, 6))
+        plt.plot(total_sixes.index, total_sixes.values)
+        plt.xlabel("Over")
+        plt.ylabel("Total sixes")
+        plt.title("Total Sixes Per Over")
+        plt.xlim(1, 20)
+        plt.savefig("result/details_graphs/total_sixes_per_over.png")
+
+    def show_team_run_count(
+        self, innings_density: pd.DataFrame, first_or_second: str
+    ) -> None:
+        teams = innings_density["current_innings"].unique()
+        num_teams = len(teams)
+        num_cols = 3
+        num_rows = (num_teams + 1) // num_cols  # Calculate the number of rows required
+        fig, axs = plt.subplots(num_rows, num_cols, figsize=(12, 6 * num_rows))
+        # Create a list of unique teams
+        unique_teams = innings_density["current_innings"].unique()
+
+        # Create a list of legend handles
+        legend_handles = [
+            Patch(facecolor=TEAM_COLOURS.get(team, "gray"), edgecolor="black")
+            for team in unique_teams
+        ]
+
+        # Create the legend
+        plt.legend(legend_handles, unique_teams, loc="upper right")
+
+        for i, team in enumerate(teams):
+            team_data = innings_density[innings_density["current_innings"] == team]
+            runs = team_data["runs"]
+            count = team_data["count"]
+            row = i // num_cols
+            col = i % num_cols
+            ax = (
+                axs[row, col] if num_rows > 1 else axs[col]
+            )  # Select the correct subplot axes
+            ax.bar(
+                runs,
+                count,
+                color=[TEAM_COLOURS.get(team, "gray") for team in unique_teams],
+            )
+            ax.set_xlabel("Runs")
+            ax.set_ylabel("Count")
+            ax.set_title(f"{first_or_second} Innings - Count by Run Type - {team}")
+
+        plt.tight_layout()  # Adjust spacing between subplots
+        plt.savefig(f"result/details_graphs/team_run_count_{first_or_second}.png")
+
+    def show_game_break_wins(self, summary_df: pd.DataFrame) -> None:
+        plt.figure(figsize=(4, 6))
+        # Plot the heatmap
+        plt.imshow(summary_df.iloc[:, 2:], cmap="hot", interpolation="nearest")
+        plt.colorbar(label="Probability")
+        plt.xticks(
+            range(len(summary_df.columns[2:])), summary_df.columns[2:], rotation=45
+        )
+        plt.yticks(range(len(summary_df.index)), summary_df.index)
+        plt.xlabel("Winning Team")
+        plt.ylabel("Days Between Games")
+        plt.title("Probability Heatmap")
+        plt.tight_layout()
+        plt.savefig("result/summary_graphs/game_break_wins.png")
+
+    def toss_decisions(self, toss_decisions: Dict[str, int]) -> None:
+        labels = list(toss_decisions.keys())
+        values = list(toss_decisions.values())
+        plt.figure(figsize=(4, 6))
+        plt.bar(labels, values)
+        plt.xlabel("Decision Made")
+        plt.ylabel("Amount of Times Chosen")
+        plt.title("Toss Won Decision")
+        plt.savefig("result/summary_graphs/toss_decisions.png")
+
+    def show_lowest_scores(self, lowest_scores: Dict[str, Dict[str, int]]) -> None:
+        # Set the width of the bars
+        bar_width = 0.8
+        innings = list(lowest_scores.keys())
+        scores = [
+            lowest_scores["1st Inning"]["Score"],
+            lowest_scores["2nd Inning"]["Score"],
+        ]
+        colors = [
+            TEAM_COLOURS[lowest_scores["1st Inning"]["Team"]],
+            TEAM_COLOURS[lowest_scores["2nd Inning"]["Team"]],
+        ]
+        # Create a list of legend handles
+        legend_handles = [
+            Patch(facecolor=TEAM_COLOURS.get(team, "gray"), edgecolor="black")
+            for team in [
+                lowest_scores["1st Inning"]["Team"],
+                lowest_scores["2nd Inning"]["Team"],
+            ]
+        ]
+        plt.figure(figsize=(10, 6))
+        # Create the legend
+        plt.legend(
+            legend_handles,
+            [lowest_scores["1st Inning"]["Team"], lowest_scores["2nd Inning"]["Team"]],
+            loc="upper right",
+        )
+
+        plt.bar(innings, scores, color=colors, width=bar_width)
+        plt.xlabel("Inning")
+        plt.ylabel("Score")
+        plt.title("Lowest Team Scores by Inning")
+        plt.savefig("result/details_graphs/lowest_score_by_inning.png")
+
+    def show_highest_scores(self, highest_scores: Dict[str, Dict[str, int]]) -> None:
+        # Set the width of the bars
+        bar_width = 0.8
+        innings = list(highest_scores.keys())
+        scores = [
+            highest_scores["1st Inning"]["Score"],
+            highest_scores["2nd Inning"]["Score"],
+        ]
+        colors = [
+            TEAM_COLOURS[highest_scores["1st Inning"]["Team"]],
+            TEAM_COLOURS[highest_scores["2nd Inning"]["Team"]],
+        ]
+        plt.figure(figsize=(10, 6))
+        # Create a list of legend handles
+        legend_handles = [
+            Patch(facecolor=TEAM_COLOURS.get(team, "gray"), edgecolor="black")
+            for team in [
+                highest_scores["1st Inning"]["Team"],
+                highest_scores["2nd Inning"]["Team"],
+            ]
+        ]
+        # Create the legend
+        plt.legend(
+            legend_handles,
+            [
+                highest_scores["1st Inning"]["Team"],
+                highest_scores["2nd Inning"]["Team"],
+            ],
+            loc="upper right",
+        )
+
+        plt.bar(innings, scores, color=colors, width=bar_width)
+        plt.xlabel("Inning")
+        plt.ylabel("Score")
+        plt.title("Highest Team Scores by Inning")
+        plt.savefig("result/details_graphs/highest_score_by_inning.png")

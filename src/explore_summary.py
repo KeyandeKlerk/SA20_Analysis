@@ -89,20 +89,26 @@ class SummaryData:
         Returns:
             A dictionary with keys '1st Inning' and '2nd Inning', each containing a dictionary with keys 'Team' and 'Score'
         """
-        lowest_1st_inn_score = self.summary_df.loc[
+        self.summary_df["1st_inning_score"] = pd.to_numeric(
+            self.summary_df["1st_inning_score"], errors="coerce"
+        )
+        highest_1st_inn_score = self.summary_df.loc[
             self.summary_df["1st_inning_score"].idxmin()
         ]
-        lowest_2nd_inn_score = self.summary_df.loc[
+        self.summary_df["2nd_inning_score"] = pd.to_numeric(
+            self.summary_df["2nd_inning_score"], errors="coerce"
+        )
+        highest_2nd_inn_score = self.summary_df.loc[
             self.summary_df["2nd_inning_score"].idxmin()
         ]
         return {
             "1st Inning": {
-                "Team": lowest_1st_inn_score["winner"],
-                "Score": lowest_1st_inn_score["1st_inning_score"],
+                "Team": highest_1st_inn_score["winner"],
+                "Score": highest_1st_inn_score["1st_inning_score"],
             },
             "2nd Inning": {
-                "Team": lowest_2nd_inn_score["winner"],
-                "Score": lowest_2nd_inn_score["2nd_inning_score"],
+                "Team": highest_2nd_inn_score["winner"],
+                "Score": highest_2nd_inn_score["2nd_inning_score"],
             },
         }
 
