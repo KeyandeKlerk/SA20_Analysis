@@ -3,6 +3,66 @@ import pandas as pd
 import numpy as np
 
 
+def compare_bowler_performances(
+    bowling_df: pd.DataFrame, bowler_name: str
+) -> Dict[str, str]:
+    """
+    This function takes a pandas dataframe containing bowling statistics for a cricket tournament and a bowler name,
+    and compares the bowler's performance at home versus away matches.
+
+    Args:
+    - df: pandas dataframe containing bowling statistics
+    - bowler_name: string, the name of the bowler whose performance is to be compared
+
+    Returns:
+    - A dictionary containing the average runs conceded, wickets taken, economy rate, and bowling strike rate for the bowler
+    at home and away matches.
+    """
+
+    # Filter the dataframe to include only the specified bowler's data
+    bowler_df = bowling_df[bowling_df["fullName"] == bowler_name]
+
+    # Split the data into home and away matches
+    bowler_team = bowler_df["bowling_team"]
+    home_df = bowler_df[bowler_df["home_team"] == bowler_team]
+    away_df = bowler_df[bowler_df["away_team"] == bowler_team]
+
+    # Calculate the average runs conceded, wickets taken, economy rate, and bowling strike rate for home and away matches
+    home_runs = home_df["conceded"].mean()
+    away_runs = away_df["conceded"].mean()
+
+    home_wickets = home_df["wickets"].mean()
+    away_wickets = away_df["wickets"].mean()
+
+    home_economy = home_df["economyRate"].mean()
+    away_economy = away_df["economyRate"].mean()
+
+    if home_wickets != 0:
+        home_strike_rate = home_df["overs"].sum() / home_wickets
+    else:
+        home_strike_rate = np.nan
+
+    if away_wickets != 0:
+        away_strike_rate = away_df["overs"].sum() / away_wickets
+    else:
+        away_strike_rate = np.nan
+
+    # Create a dictionary to store the results
+    results = {
+        "bowler_name": bowler_name,
+        "home_runs_conceded": home_runs,
+        "away_runs_conceded": away_runs,
+        "home_wickets_taken": home_wickets,
+        "away_wickets_taken": away_wickets,
+        "home_economy_rate": home_economy,
+        "away_economy_rate": away_economy,
+        "home_strike_rate": home_strike_rate,
+        "away_strike_rate": away_strike_rate,
+    }
+
+    return results
+
+
 class BowlingData:
     def __init__(self, bowling_df: pd.DataFrame):
         self.bowling_df = bowling_df
@@ -32,7 +92,6 @@ class BowlingData:
         for match_id, game_data in self.bowling_df.groupby("match_id"):
             # find the row with the maximum wickets
             max_wickets_row = game_data.loc[game_data["wickets"].idxmax()]
-            print(max_wickets_row)
             # if there are multiple rows with the maximum wickets, find the one with the lowest conceded
             if (game_data["wickets"] == max_wickets_row["wickets"]).sum() > 1:
                 min_conceded_row = game_data.loc[game_data["conceded"].idxmin()]
@@ -95,6 +154,7 @@ class BowlingData:
         # Group by fullName and sum the desired columns
         grouped = self.bowling_df.groupby("fullName").agg(
             {
+                "bowling_team": lambda x: x.tail(1).iloc[0],
                 "overs": "sum",
                 "wickets": "sum",
                 "maidens": "sum",
@@ -109,6 +169,7 @@ class BowlingData:
         )
         # Rename the columns
         grouped.columns = [
+            "team",
             "total_overs",
             "total_wickets",
             "total_maidens",
@@ -156,63 +217,6 @@ class BowlingData:
         # Reset the index
         return grouped.reset_index()
 
-    def compare_bowler_performances(self, bowler_name: str) -> Dict[str, str]:
-        """
-        This function takes a pandas dataframe containing bowling statistics for a cricket tournament and a bowler name,
-        and compares the bowler's performance at home versus away matches.
-
-        Args:
-        - df: pandas dataframe containing bowling statistics
-        - bowler_name: string, the name of the bowler whose performance is to be compared
-
-        Returns:
-        - A dictionary containing the average runs conceded, wickets taken, economy rate, and bowling strike rate for the bowler
-        at home and away matches.
-        """
-
-        # Filter the dataframe to include only the specified bowler's data
-        bowler_df = self.bowling_df[self.bowling_df["fullName"] == bowler_name]
-
-        # Split the data into home and away matches
-        bowler_team = bowler_df["bowling_team"]
-        home_df = bowler_df[bowler_df["home_team"] == bowler_team]
-        away_df = bowler_df[bowler_df["away_team"] == bowler_team]
-
-        # Calculate the average runs conceded, wickets taken, economy rate, and bowling strike rate for home and away matches
-        home_runs = home_df["conceded"].mean()
-        away_runs = away_df["conceded"].mean()
-
-        home_wickets = home_df["wickets"].mean()
-        away_wickets = away_df["wickets"].mean()
-
-        home_economy = home_df["economyRate"].mean()
-        away_economy = away_df["economyRate"].mean()
-
-        if home_wickets != 0:
-            home_strike_rate = home_df["overs"].sum() / home_wickets
-        else:
-            home_strike_rate = np.nan
-
-        if away_wickets != 0:
-            away_strike_rate = away_df["overs"].sum() / away_wickets
-        else:
-            away_strike_rate = np.nan
-
-        # Create a dictionary to store the results
-        results = {
-            "bowler_name": bowler_name,
-            "home_runs_conceded": home_runs,
-            "away_runs_conceded": away_runs,
-            "home_wickets_taken": home_wickets,
-            "away_wickets_taken": away_wickets,
-            "home_economy_rate": home_economy,
-            "away_economy_rate": away_economy,
-            "home_strike_rate": home_strike_rate,
-            "away_strike_rate": away_strike_rate,
-        }
-
-        return results
-
     def compare_all_performances(self) -> pd.DataFrame:
         """
         This function takes a pandas dataframe containing bowling statistics for a cricket tournament, loops over every
@@ -231,9 +235,8 @@ class BowlingData:
         results_list = []
 
         for bowler_name in bowler_names:
-            bowler_results = self.compare_bowler_performances(bowler_name)
+            bowler_results = compare_bowler_performances(self.bowling_df, bowler_name)
             results_list.append(bowler_results)
 
         results_df = pd.DataFrame(results_list)
-
         return results_df

@@ -14,6 +14,7 @@ from src import (
     explore_bowling,
     explore_details,
     explore_summary,
+    visualize_information,
 )
 
 
@@ -24,17 +25,9 @@ def main() -> None:
         batting_df, bowling_df, details_df, summary_df
     )
 
-    # batsman = explore_batting.BattingData(batting_df)
-    # print(batsman.best_batsman_per_game)
-    # print(batsman.get_batsman_stats("Faf du Plessis"))
-    # print(batsman.get_largest_total_for_wicket(1))
-    # print(batsman.compare_all_performances())
-    # print(batsman.get_all_performances())
+    batsman = explore_batting.BattingData(batting_df)
 
-    # bowler = explore_bowling.BowlingData(bowling_df)
-    # print(bowler.best_bowler_per_game())
-    # print(bowler.get_all_performances())
-    # print(bowler.compare_bowler_performances("Kagiso Rabada"))
+    bowler = explore_bowling.BowlingData(bowling_df)
     # print(bowler.compare_all_performances())
 
     # details = explore_details.DetailsData(details_df)
@@ -48,6 +41,27 @@ def main() -> None:
     # print(summary.get_toss_decisions())
     # print(summary.get_highest_scores())
     # print(summary.get_lowest_scores())
+
+    visualizer = visualize_information.VisualizeInformation()
+
+    """
+    visualizer.show_top10_batsman(batsman.get_all_performances())
+    visualizer.show_best_batsman_per_game(batsman.best_batsman_per_game())
+    visualizer.show_best_home_away_batsmen(
+        batsman.compare_all_performances(),
+        "Home",
+    )
+    visualizer.show_best_home_away_batsmen(
+        batsman.compare_all_performances(),
+        "Away",
+    )
+    visualizer.show_most_boundaries(batsman.get_all_performances())
+
+    visualizer.show_top10_bowlers(bowler.get_all_performances())
+    visualizer.show_best_bowler_per_game(bowler.best_bowler_per_game())
+    visualizer.show_best_home_away_bowler(bowler.compare_all_performances(), "Home")
+    visualizer.show_best_home_away_bowler(bowler.compare_all_performances(), "Away")
+    """
 
 
 if __name__ == "__main__":
