@@ -3,19 +3,7 @@ import logging
 import pandas as pd
 
 
-def configure_logging() -> None:
-    """Configure the logging module."""
-    logging.basicConfig(
-        filename="./log/SA20_analysis.log",
-        level=logging.DEBUG,
-        format="%(asctime)s:%(levelname)s:%(message)s",
-    )
-
-
 class DatasetCleaner:
-    def __init__(self):
-        configure_logging()
-
     def read_dataset(
         self,
     ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
@@ -74,12 +62,6 @@ class DatasetCleaner:
 
         if "commentary" in batting_df.columns:
             batting_df.drop("commentary", axis=1, inplace=True)
-
-        duplicate_rows = batting_df.duplicated().sum()
-        if duplicate_rows > 0:
-            logging.error(
-                f"{duplicate_rows} duplicate rows were detected for /input/batting_card.csv"
-            )
 
         # replace the string in the 'shortText' column
         batting_df = batting_df.assign(
