@@ -177,7 +177,9 @@ class VisualizeInformation:
         top_10_players = bowling_df.nlargest(10, "total_wickets")
 
         # Create the bar chart with different colors
-        bars = plt.bar(
+        fig, ax = plt.subplots()  # Create a figure and axis object
+
+        bars = ax.bar(
             top_10_players["fullName"],
             top_10_players["total_wickets"],
             color=[TEAM_COLOURS.get(team, "gray") for team in top_10_players["team"]],
@@ -193,7 +195,7 @@ class VisualizeInformation:
         ]
 
         # Create the legend
-        plt.legend(legend_handles, unique_teams, loc="upper right")
+        ax.legend(legend_handles, unique_teams, loc="upper right")
 
         plt.xlabel("Player Name")
         plt.ylabel("Total Wickets")
@@ -329,17 +331,6 @@ class VisualizeInformation:
         num_cols = 3
         num_rows = (num_teams + 1) // num_cols  # Calculate the number of rows required
         fig, axs = plt.subplots(num_rows, num_cols, figsize=(12, 6 * num_rows))
-        # Create a list of unique teams
-        unique_teams = innings_density["current_innings"].unique()
-
-        # Create a list of legend handles
-        legend_handles = [
-            Patch(facecolor=TEAM_COLOURS.get(team, "gray"), edgecolor="black")
-            for team in unique_teams
-        ]
-
-        # Create the legend
-        plt.legend(legend_handles, unique_teams, loc="upper right")
 
         for i, team in enumerate(teams):
             team_data = innings_density[innings_density["current_innings"] == team]
@@ -350,11 +341,7 @@ class VisualizeInformation:
             ax = (
                 axs[row, col] if num_rows > 1 else axs[col]
             )  # Select the correct subplot axes
-            ax.bar(
-                runs,
-                count,
-                color=[TEAM_COLOURS.get(team, "gray") for team in unique_teams],
-            )
+            ax.bar(runs, count)
             ax.set_xlabel("Runs")
             ax.set_ylabel("Count")
             ax.set_title(f"{first_or_second} Innings - Count by Run Type - {team}")
