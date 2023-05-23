@@ -22,7 +22,7 @@ class VisualizeInformation:
 
         # Create the bar chart with different colors
         bars = plt.bar(
-            top_10_players["fullName"],
+            top_10_players["full_name"],
             top_10_players["total_runs"],
             color=[TEAM_COLOURS.get(team, "gray") for team in top_10_players["team"]],
         )
@@ -142,7 +142,7 @@ class VisualizeInformation:
 
         # Create the bar chart with different colors
         bars = plt.bar(
-            top_10_players["fullName"],
+            top_10_players["full_name"],
             top_10_players["boundary_percentage"],
             color=[TEAM_COLOURS.get(team, "gray") for team in top_10_players["team"]],
         )
@@ -180,7 +180,7 @@ class VisualizeInformation:
         fig, ax = plt.subplots()  # Create a figure and axis object
 
         bars = ax.bar(
-            top_10_players["fullName"],
+            top_10_players["full_name"],
             top_10_players["total_wickets"],
             color=[TEAM_COLOURS.get(team, "gray") for team in top_10_players["team"]],
         )
@@ -220,7 +220,7 @@ class VisualizeInformation:
         # Plot the average runs as a scatter plot with dots
         plt.scatter(
             best_df["match_id"] - 1343940,
-            best_df["economyRate"],
+            best_df["economy_rate"],
             label="Economy Rate",
             color="red",
         )

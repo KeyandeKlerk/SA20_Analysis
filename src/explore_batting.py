@@ -20,7 +20,7 @@ def compare_batsman_performances(
     """
 
     # Filter the dataframe to include only the specified batsman's data
-    batsman_df = batting_df[batting_df["fullName"] == batsman_name]
+    batsman_df = batting_df[batting_df["full_name"] == batsman_name]
 
     # Split the data into home and away matches
     batsman_team = batsman_df["current_innings"]
@@ -31,11 +31,11 @@ def compare_batsman_performances(
     home_runs = home_df["runs"].mean()
     away_runs = away_df["runs"].mean()
 
-    home_balls_faced = home_df["ballsFaced"].mean()
-    away_balls_faced = away_df["ballsFaced"].mean()
+    home_balls_faced = home_df["balls_faced"].mean()
+    away_balls_faced = away_df["balls_faced"].mean()
 
-    home_strike = home_df["strikeRate"].mean()
-    away_strike = away_df["strikeRate"].mean()
+    home_strike = home_df["strike_rate"].mean()
+    away_strike = away_df["strike_rate"].mean()
 
     # Create a dictionary to store the results
     results = {
@@ -56,23 +56,23 @@ class BattingData:
         self.batting_df = batting_df
 
     def get_all_performances(self):
-        grouped = self.batting_df.groupby("fullName").agg(
+        grouped = self.batting_df.groupby("full_name").agg(
             {
                 "current_innings": lambda x: x.tail(1).iloc[0],
-                "isNotOut": "sum",
+                "not_out": "sum",
                 "runs": "sum",
-                "ballsFaced": "sum",
+                "balls_faced": "sum",
                 "fours": "sum",
                 "sixes": "sum",
-                "strikeRate": "mean",
+                "strike_rate": "mean",
             }
         )
 
         # Calculate the batting average
-        grouped = grouped.assign(batting_average=grouped["runs"] / grouped["isNotOut"])
+        grouped = grouped.assign(batting_average=grouped["runs"] / grouped["not_out"])
 
         # Calculate boundary percentage for each player
-        boundary_percentage = self.batting_df.groupby("fullName").apply(
+        boundary_percentage = self.batting_df.groupby("full_name").apply(
             lambda x: ((x["fours"].sum() * 4) + (x["sixes"].sum() * 6))
             / x["runs"].sum()
             * 100
@@ -81,7 +81,7 @@ class BattingData:
         # Add boundary percentage to the grouped DataFrame
         grouped["boundary_percentage"] = boundary_percentage.values
 
-        total_innings = self.batting_df.groupby("fullName").size()
+        total_innings = self.batting_df.groupby("full_name").size()
         grouped["total_innings"] = total_innings
 
         # Rename the columns
@@ -103,7 +103,7 @@ class BattingData:
 
     def best_batsman_per_game(self) -> pd.DataFrame:
         # create a new dataframe to store the best batsman in each game
-        best_batsman_df = pd.DataFrame(columns=["match_id", "fullName", "runs"])
+        best_batsman_df = pd.DataFrame(columns=["match_id", "full_name", "runs"])
 
         # loop through each game in the data
         for match_id in self.batting_df["match_id"].unique():
@@ -111,16 +111,16 @@ class BattingData:
             game_data = self.batting_df[self.batting_df["match_id"] == match_id]
 
             # calculate the batting average for each batsman in the game
-            batting_averages = game_data.groupby("fullName")["runs"].mean()
+            batting_averages = game_data.groupby("full_name")["runs"].mean()
 
             # get the batsman with the highest batting average
             best_batsman = batting_averages.idxmax()
 
             # get the score of the best batsman
-            score = game_data.loc[game_data["fullName"] == best_batsman, "runs"].sum()
+            score = game_data.loc[game_data["full_name"] == best_batsman, "runs"].sum()
 
             # add the best batsman and their score to the new dataframe
-            new_row = {"match_id": match_id, "fullName": best_batsman, "runs": score}
+            new_row = {"match_id": match_id, "full_name": best_batsman, "runs": score}
             best_batsman_df = pd.concat(
                 [best_batsman_df, pd.DataFrame(new_row, index=[0])], ignore_index=True
             )
@@ -139,7 +139,7 @@ class BattingData:
         every batsman in the input dataframe, at home and away matches.
         """
 
-        batsman_names = self.batting_df["fullName"].unique()
+        batsman_names = self.batting_df["full_name"].unique()
 
         results_list = []
 

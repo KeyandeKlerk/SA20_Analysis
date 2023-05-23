@@ -1,4 +1,4 @@
-season,match_id,match_name,home_team,away_team,venue,city,country,current_innings,innings_id,name,fullName,runs,ballsFaced,minutes,fours,sixes,strikeRate,captain,isNotOut,runningScore,runningOver,shortText
+season,match_id,match_name,home_team,away_team,venue,city,country,current_innings,innings_id,name,full_name,runs,balls_faced,minutes,fours,sixes,strike_rate,captain,not_out,running_score,running_over,short_text
 2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,PD Salt,Phil Salt,39,21,24,3,3,185.71,False,False,"{'wickets': 1, 'runs': 69}",5.2,c Buttler b Ngidi
 2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,BKG Mendis,Kusal Mendis,80,41,80,8,4,195.12,False,False,"{'wickets': 4, 'runs': 183}",16.4,c Miller b Ngidi
 2023,1343970,PC v PR,PC,PR,"SuperSport Park, Centurion",Centurion,South Africa,PC,1,TB de Bruyn,Theunis de Bruyn,12,14,20,0,0,85.71,True,False,"{'wickets': 2, 'runs': 93}",9.1,c Morgan b Phehlukwayo

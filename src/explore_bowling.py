@@ -20,7 +20,7 @@ def compare_bowler_performances(
     """
 
     # Filter the dataframe to include only the specified bowler's data
-    bowler_df = bowling_df[bowling_df["fullName"] == bowler_name]
+    bowler_df = bowling_df[bowling_df["full_name"] == bowler_name]
 
     # Split the data into home and away matches
     bowler_team = bowler_df["bowling_team"]
@@ -34,8 +34,8 @@ def compare_bowler_performances(
     home_wickets = home_df["wickets"].mean()
     away_wickets = away_df["wickets"].mean()
 
-    home_economy = home_df["economyRate"].mean()
-    away_economy = away_df["economyRate"].mean()
+    home_economy = home_df["economy_rate"].mean()
+    away_economy = away_df["economy_rate"].mean()
 
     if home_wickets != 0:
         home_strike_rate = home_df["overs"].sum() / home_wickets
@@ -79,12 +79,12 @@ class BowlingData:
         best_bowler_df = pd.DataFrame(
             columns=[
                 "match_id",
-                "fullName",
+                "full_name",
                 "overs",
                 "maidens",
                 "conceded",
                 "wickets",
-                "economyRate",
+                "economy_rate",
             ]
         ).reset_index(drop=True)
 
@@ -97,7 +97,7 @@ class BowlingData:
                 min_conceded_row = game_data.loc[game_data["conceded"].idxmin()]
                 # if there are still multiple rows, find the one with the smallest economy rate
                 if (game_data["conceded"] == min_conceded_row["conceded"]).sum() > 1:
-                    best_bowler_row = game_data.loc[game_data["economyRate"].idxmin()]
+                    best_bowler_row = game_data.loc[game_data["economy_rate"].idxmin()]
                 else:
                     best_bowler_row = min_conceded_row
             else:
@@ -110,12 +110,12 @@ class BowlingData:
                     best_bowler_row.loc[
                         [
                             "match_id",
-                            "fullName",
+                            "full_name",
                             "overs",
                             "maidens",
                             "conceded",
                             "wickets",
-                            "economyRate",
+                            "economy_rate",
                         ]
                     ]
                     .to_frame()
@@ -139,7 +139,7 @@ class BowlingData:
 
         Returns:
             DataFrame: A pandas DataFrame containing the following columns:
-                - fullName (str): The name of the bowler.
+                - full_name (str): The name of the bowler.
                 - total_overs (float): The total number of overs bowled by the bowler.
                 - total_wickets (int): The total number of wickets taken by the bowler.
                 - total_maidens (int): The total number of maidens bowled by the bowler.
@@ -151,18 +151,18 @@ class BowlingData:
                 - wides_bowled (int): The total number of wides bowled by the bowler.
                 - no_balls_bowled (int): The total number of no-balls bowled by the bowler.
         """
-        # Group by fullName and sum the desired columns
-        grouped = self.bowling_df.groupby("fullName").agg(
+        # Group by full_name and sum the desired columns
+        grouped = self.bowling_df.groupby("full_name").agg(
             {
                 "bowling_team": lambda x: x.tail(1).iloc[0],
                 "overs": "sum",
                 "wickets": "sum",
                 "maidens": "sum",
                 "conceded": "sum",
-                "economyRate": "mean",
+                "economy_rate": "mean",
                 "dots": "sum",
-                "foursConceded": "sum",
-                "sixesConceded": "sum",
+                "fours_conceded": "sum",
+                "sixes_conceded": "sum",
                 "wides": "sum",
                 "noballs": "sum",
             }
@@ -182,7 +182,7 @@ class BowlingData:
             "no_balls_bowled",
         ]
 
-        average = self.bowling_df.groupby("fullName").apply(
+        average = self.bowling_df.groupby("full_name").apply(
             lambda x: (x["conceded"].sum() / x["wickets"].sum())
             if x["wickets"].sum() != 0
             else np.NaN
@@ -191,7 +191,7 @@ class BowlingData:
         grouped["average"] = average.values
 
         # Calculate bowling average for each player
-        average = self.bowling_df.groupby("fullName").apply(
+        average = self.bowling_df.groupby("full_name").apply(
             lambda x: x["conceded"].sum() / x["wickets"].sum()
             if x["wickets"].sum() != 0
             else np.NaN
@@ -201,12 +201,12 @@ class BowlingData:
         grouped["average"] = average.values
 
         # apply the function to the "overs" column and create a new column "balls_bowled"
-        balls_bowled = self.bowling_df.groupby("fullName").apply(self.calculate_balls)
+        balls_bowled = self.bowling_df.groupby("full_name").apply(self.calculate_balls)
         grouped["balls_bowled"] = balls_bowled.values
 
         # calculate total number of wickets taken by each player
         wickets_taken = (
-            self.bowling_df["wickets"].groupby(self.bowling_df["fullName"]).sum()
+            self.bowling_df["wickets"].groupby(self.bowling_df["full_name"]).sum()
         )
 
         # calculate strike rate for each player
@@ -230,7 +230,7 @@ class BowlingData:
         every bowler in the input dataframe, at home and away matches.
         """
 
-        bowler_names = self.bowling_df["fullName"].unique()
+        bowler_names = self.bowling_df["full_name"].unique()
 
         results_list = []
 

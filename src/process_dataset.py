@@ -48,7 +48,7 @@ class DatasetCleaner:
         summary_df.to_csv("./input/clean_input/summary.csv", index=False)
         return batting_df, bowling_df, details_df, summary_df
 
-    def clean_batting(self, batting_df) -> pd.DataFrame:
+    def clean_batting(self, batting_df: pd.DataFrame) -> pd.DataFrame:
         """All the steps to be taken to clean the batting_df dataframe
 
         Args:
@@ -63,14 +63,28 @@ class DatasetCleaner:
         if "commentary" in batting_df.columns:
             batting_df.drop("commentary", axis=1, inplace=True)
 
-        # replace the string in the 'shortText' column
+        # rename the fullName column to full_name for consistency
+        batting_df.rename(
+            columns={
+                "fullName": "full_name",
+                "ballsFaced": "balls_faced",
+                "strikeRate": "strike_rate",
+                "isNotOut": "not_out",
+                "runningScore": "running_score",
+                "runningOver": "running_over",
+                "shortText": "short_text",
+            },
+            inplace=True,
+        )
+
+        # replace the string in the 'short_text' column
         batting_df = batting_df.assign(
-            shortText=batting_df["shortText"].str.replace("&dagger;", "")
+            short_text=batting_df["short_text"].str.replace("&dagger;", "")
         )
 
         return batting_df
 
-    def clean_bowling(self, bowling_df) -> pd.DataFrame:
+    def clean_bowling(self, bowling_df: pd.DataFrame) -> pd.DataFrame:
         """All the steps to be taken to clean the bowling_df dataframe
 
         Args:
@@ -85,6 +99,16 @@ class DatasetCleaner:
 
         if "href" in bowling_df.columns:
             bowling_df.drop("href", axis=1, inplace=True)
+
+        bowling_df.rename(
+            columns={
+                "fullName": "full_name",
+                "economyRate": "economy_rate",
+                "foursConceded": "fours_conceded",
+                "sixesConceded": "sixes_conceded",
+            },
+            inplace=True,
+        )
 
         return bowling_df
 
